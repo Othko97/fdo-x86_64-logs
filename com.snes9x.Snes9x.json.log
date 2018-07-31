@@ -1,0 +1,2325 @@
+Emptying app dir 'build'
+Downloading sources
+Initializing build dir
+Committing stage init to cache
+Starting build of com.snes9x.Snes9x
+========================================================================
+Building module SDL1 in /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/build/SDL1-2
+========================================================================
+Applying patch sdl-libx11-build.patch
+patching file configure.in
+Hunk #1 succeeded at 1127 (offset -42 lines).
+patching file include/SDL_config.h.in
+Hunk #1 succeeded at 282 (offset -1 lines).
+patching file src/video/x11/SDL_x11sym.h
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'build-scripts'.
+libtoolize: linking file 'build-scripts/ltmain.sh'
+libtoolize: Consider adding 'AC_CONFIG_MACRO_DIRS([m4])' to configure.in,
+libtoolize: and rerunning libtoolize and aclocal.
+libtoolize: Consider adding '-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/x86_64-unknown-linux-gnu/bin/ld
+checking if the linker (/usr/x86_64-unknown-linux-gnu/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/x86_64-unknown-linux-gnu/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/x86_64-unknown-linux-gnu/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether byte ordering is bigendian... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/x86_64-unknown-linux-gnu/bin/ld -m elf_x86_64
+checking if the linker (/usr/x86_64-unknown-linux-gnu/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/x86_64-unknown-linux-gnu/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/x86_64-unknown-linux-gnu/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether make sets $(MAKE)... yes
+checking for windres... no
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for working volatile... yes
+checking for ANSI C header files... (cached) yes
+checking for sys/types.h... (cached) yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for memory.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for size_t... yes
+checking for int64_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for working memcmp... yes
+checking for working strtod... yes
+checking for mprotect... yes
+checking for malloc... yes
+checking for calloc... yes
+checking for realloc... yes
+checking for free... yes
+checking for getenv... yes
+checking for putenv... yes
+checking for unsetenv... yes
+checking for qsort... yes
+checking for abs... yes
+checking for bcopy... yes
+checking for memset... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for strlen... yes
+checking for strlcpy... no
+checking for strlcat... no
+checking for strdup... yes
+checking for _strrev... no
+checking for _strupr... no
+checking for _strlwr... no
+checking for strchr... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for itoa... no
+checking for _ltoa... no
+checking for _uitoa... no
+checking for _ultoa... no
+checking for strtol... yes
+checking for strtoul... yes
+checking for _i64toa... no
+checking for _ui64toa... no
+checking for strtoll... yes
+checking for strtoull... yes
+checking for atoi... yes
+checking for atof... yes
+checking for strcmp... yes
+checking for strncmp... yes
+checking for _stricmp... no
+checking for strcasecmp... yes
+checking for _strnicmp... no
+checking for strncasecmp... yes
+checking for sscanf... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for iconv... yes
+checking for sigaction... yes
+checking for setjmp... yes
+checking for nanosleep... yes
+checking for libiconv_open in -liconv... no
+checking for pow in -lm... yes
+checking for struct sigaction.sa_sigaction... yes
+checking for GCC -fvisibility=hidden option... yes
+checking for dlopen... yes
+checking for dlopen in -lc... no
+checking for dlopen in -ldl... yes
+checking for Altivec with GCC altivec.h and -maltivec option... no
+checking for Altivec with GCC -maltivec option... no
+checking for Altivec with GCC altivec.h and -faltivec option... no
+checking for Altivec with GCC -faltivec option... no
+checking for OSS audio support... yes
+checking for dmedia audio support... no
+checking for ALSA CFLAGS... 
+checking for ALSA LDFLAGS...  -lasound -lm -ldl -lpthread
+checking for libasound headers version >= 0.9.0... found.
+checking for snd_ctl_open in -lasound... yes
+-- dynamic libasound -> libasound.so.2
+checking for artsc-config... no
+checking for pkg-config... /usr/bin/pkg-config
+checking for PulseAudio 0.9 support... yes
+-- dynamic libpulse-simple -> libpulse-simple.so.0
+checking audio/audiolib.h usability... no
+checking audio/audiolib.h presence... no
+checking for audio/audiolib.h... no
+checking for AuOpenServer in -laudio... no
+checking for NAS audio support... no
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+-- dynamic libX11 -> libX11.so.6
+-- dynamic libX11ext -> libXext.so.6
+checking for X11/extensions/Xrandr.h... yes
+-- dynamic libXrender -> libXrender.so.1
+-- dynamic libXrandr -> libXrandr.so.2
+checking for const parameter to _XData32... yes
+checking for framebuffer console support... yes
+checking for getpagesize... yes
+checking for directfb-config... no
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking for DirectFB 0.9.15 support... no
+checking for PlayStation 2 GS support... no
+checking for PlayStation 3 Cell support... no
+checking for SVGAlib (1.4.0+) support... no
+checking for libVGL support... no
+checking for wscons support... no
+checking for OpenGL (GLX) support... no
+checking for Linux 2.4 unified input interface... yes
+checking for Touchscreen library support... no
+checking for hid_init in -lusbhid... no
+checking usb.h usability... no
+checking usb.h presence... no
+checking for usb.h... no
+checking libusb.h usability... no
+checking libusb.h presence... no
+checking for libusb.h... no
+checking for hid_init in -lusb... no
+checking for usbhid... no
+checking for pthreads... yes
+checking for recursive mutexes... yes
+checking for pthread semaphores... yes
+checking for sem_timedwait... yes
+checking linux/version.h usability... yes
+checking linux/version.h presence... yes
+checking for linux/version.h... yes
+checking for GCC -Wall option... yes
+checking for necessary GCC -Wno-multichar option... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating sdl-config
+config.status: creating SDL.spec
+config.status: creating SDL.qpg
+config.status: creating sdl.pc
+config.status: creating include/SDL_config.h
+config.status: executing libtool commands
+config.status: executing default commands
+Generating dependencies for ./src/SDL.c
+Generating dependencies for ./src/SDL_error.c
+Generating dependencies for ./src/SDL_fatal.c
+Generating dependencies for ./src/audio/SDL_audio.c
+Generating dependencies for ./src/audio/SDL_audiocvt.c
+Generating dependencies for ./src/audio/SDL_audiodev.c
+Generating dependencies for ./src/audio/SDL_mixer.c
+Generating dependencies for ./src/audio/SDL_mixer_MMX.c
+Generating dependencies for ./src/audio/SDL_mixer_MMX_VC.c
+Generating dependencies for ./src/audio/SDL_mixer_m68k.c
+Generating dependencies for ./src/audio/SDL_wave.c
+Generating dependencies for ./src/cdrom/SDL_cdrom.c
+Generating dependencies for ./src/cpuinfo/SDL_cpuinfo.c
+Generating dependencies for ./src/events/SDL_active.c
+Generating dependencies for ./src/events/SDL_events.c
+Generating dependencies for ./src/events/SDL_expose.c
+Generating dependencies for ./src/events/SDL_keyboard.c
+Generating dependencies for ./src/events/SDL_mouse.c
+Generating dependencies for ./src/events/SDL_quit.c
+Generating dependencies for ./src/events/SDL_resize.c
+Generating dependencies for ./src/file/SDL_rwops.c
+Generating dependencies for ./src/stdlib/SDL_getenv.c
+Generating dependencies for ./src/stdlib/SDL_iconv.c
+Generating dependencies for ./src/stdlib/SDL_malloc.c
+Generating dependencies for ./src/stdlib/SDL_qsort.c
+Generating dependencies for ./src/stdlib/SDL_stdlib.c
+Generating dependencies for ./src/stdlib/SDL_string.c
+Generating dependencies for ./src/thread/SDL_thread.c
+Generating dependencies for ./src/timer/SDL_timer.c
+Generating dependencies for ./src/video/SDL_RLEaccel.c
+Generating dependencies for ./src/video/SDL_blit.c
+Generating dependencies for ./src/video/SDL_blit_0.c
+Generating dependencies for ./src/video/SDL_blit_1.c
+Generating dependencies for ./src/video/SDL_blit_A.c
+Generating dependencies for ./src/video/SDL_blit_N.c
+Generating dependencies for ./src/video/SDL_bmp.c
+Generating dependencies for ./src/video/SDL_cursor.c
+Generating dependencies for ./src/video/SDL_gamma.c
+Generating dependencies for ./src/video/SDL_pixels.c
+Generating dependencies for ./src/video/SDL_stretch.c
+Generating dependencies for ./src/video/SDL_surface.c
+Generating dependencies for ./src/video/SDL_video.c
+Generating dependencies for ./src/video/SDL_yuv.c
+Generating dependencies for ./src/video/SDL_yuv_mmx.c
+Generating dependencies for ./src/video/SDL_yuv_sw.c
+Generating dependencies for ./src/joystick/SDL_joystick.c
+Generating dependencies for ./src/video/dummy/SDL_nullevents.c
+Generating dependencies for ./src/video/dummy/SDL_nullmouse.c
+Generating dependencies for ./src/video/dummy/SDL_nullvideo.c
+Generating dependencies for ./src/audio/disk/SDL_diskaudio.c
+Generating dependencies for ./src/audio/dummy/SDL_dummyaudio.c
+Generating dependencies for ./src/loadso/dlopen/SDL_sysloadso.c
+Generating dependencies for ./src/audio/dsp/SDL_dspaudio.c
+Generating dependencies for ./src/audio/dma/SDL_dmaaudio.c
+Generating dependencies for ./src/audio/alsa/SDL_alsa_audio.c
+Generating dependencies for ./src/audio/pulse/SDL_pulseaudio.c
+Generating dependencies for ./src/video/x11/SDL_x11dga.c
+Generating dependencies for ./src/video/x11/SDL_x11dyn.c
+Generating dependencies for ./src/video/x11/SDL_x11events.c
+Generating dependencies for ./src/video/x11/SDL_x11gamma.c
+Generating dependencies for ./src/video/x11/SDL_x11gl.c
+Generating dependencies for ./src/video/x11/SDL_x11image.c
+Generating dependencies for ./src/video/x11/SDL_x11modes.c
+Generating dependencies for ./src/video/x11/SDL_x11mouse.c
+Generating dependencies for ./src/video/x11/SDL_x11video.c
+Generating dependencies for ./src/video/x11/SDL_x11wm.c
+Generating dependencies for ./src/video/x11/SDL_x11yuv.c
+Generating dependencies for ./src/video/Xext/Xxf86dga/XF86DGA.c
+Generating dependencies for ./src/video/Xext/Xxf86dga/XF86DGA2.c
+Generating dependencies for ./src/video/dga/SDL_dgaevents.c
+Generating dependencies for ./src/video/dga/SDL_dgamouse.c
+Generating dependencies for ./src/video/dga/SDL_dgavideo.c
+Generating dependencies for ./src/video/Xext/Xxf86vm/XF86VMode.c
+Generating dependencies for ./src/video/Xext/Xv/Xv.c
+Generating dependencies for ./src/video/Xext/Xinerama/Xinerama.c
+Generating dependencies for ./src/video/Xext/XME/xme.c
+Generating dependencies for ./src/video/fbcon/SDL_fb3dfx.c
+Generating dependencies for ./src/video/fbcon/SDL_fbelo.c
+Generating dependencies for ./src/video/fbcon/SDL_fbevents.c
+Generating dependencies for ./src/video/fbcon/SDL_fbmatrox.c
+Generating dependencies for ./src/video/fbcon/SDL_fbmouse.c
+Generating dependencies for ./src/video/fbcon/SDL_fbriva.c
+Generating dependencies for ./src/video/fbcon/SDL_fbvideo.c
+Generating dependencies for ./src/thread/pthread/SDL_systhread.c
+Generating dependencies for ./src/thread/pthread/SDL_syssem.c
+Generating dependencies for ./src/thread/pthread/SDL_sysmutex.c
+Generating dependencies for ./src/thread/pthread/SDL_syscond.c
+Generating dependencies for ./src/joystick/linux/SDL_sysjoystick.c
+Generating dependencies for ./src/cdrom/linux/SDL_syscdrom.c
+Generating dependencies for ./src/timer/unix/SDL_systimer.c
+Generating dependencies for ./src/main/dummy/SDL_dummy_main.c
+/bin/sh build-scripts/mkinstalldirs build
+mkdir -p -- build
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/SDL_fatal.c  -o build/SDL_fatal.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/SDL_fatal.c  -fPIC -DPIC -o build/.libs/SDL_fatal.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_audio.c  -o build/SDL_audio.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_audio.c  -fPIC -DPIC -o build/.libs/SDL_audio.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_audiocvt.c  -o build/SDL_audiocvt.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_audiocvt.c  -fPIC -DPIC -o build/.libs/SDL_audiocvt.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_audiodev.c  -o build/SDL_audiodev.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_audiodev.c  -fPIC -DPIC -o build/.libs/SDL_audiodev.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_mixer.c  -o build/SDL_mixer.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_mixer.c  -fPIC -DPIC -o build/.libs/SDL_mixer.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_mixer_MMX.c  -o build/SDL_mixer_MMX.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_mixer_MMX.c  -fPIC -DPIC -o build/.libs/SDL_mixer_MMX.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_mixer_MMX_VC.c  -o build/SDL_mixer_MMX_VC.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_mixer_MMX_VC.c  -fPIC -DPIC -o build/.libs/SDL_mixer_MMX_VC.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_mixer_m68k.c  -o build/SDL_mixer_m68k.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_mixer_m68k.c  -fPIC -DPIC -o build/.libs/SDL_mixer_m68k.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_wave.c  -o build/SDL_wave.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/SDL_wave.c  -fPIC -DPIC -o build/.libs/SDL_wave.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/cdrom/SDL_cdrom.c  -o build/SDL_cdrom.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/cdrom/SDL_cdrom.c  -fPIC -DPIC -o build/.libs/SDL_cdrom.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/cpuinfo/SDL_cpuinfo.c  -o build/SDL_cpuinfo.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/cpuinfo/SDL_cpuinfo.c  -fPIC -DPIC -o build/.libs/SDL_cpuinfo.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_active.c  -o build/SDL_active.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_active.c  -fPIC -DPIC -o build/.libs/SDL_active.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_events.c  -o build/SDL_events.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_events.c  -fPIC -DPIC -o build/.libs/SDL_events.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_expose.c  -o build/SDL_expose.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_expose.c  -fPIC -DPIC -o build/.libs/SDL_expose.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_keyboard.c  -o build/SDL_keyboard.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_keyboard.c  -fPIC -DPIC -o build/.libs/SDL_keyboard.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_mouse.c  -o build/SDL_mouse.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_mouse.c  -fPIC -DPIC -o build/.libs/SDL_mouse.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_quit.c  -o build/SDL_quit.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_quit.c  -fPIC -DPIC -o build/.libs/SDL_quit.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_resize.c  -o build/SDL_resize.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/events/SDL_resize.c  -fPIC -DPIC -o build/.libs/SDL_resize.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/file/SDL_rwops.c  -o build/SDL_rwops.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/file/SDL_rwops.c  -fPIC -DPIC -o build/.libs/SDL_rwops.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_getenv.c  -o build/SDL_getenv.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_getenv.c  -fPIC -DPIC -o build/.libs/SDL_getenv.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_iconv.c  -o build/SDL_iconv.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_iconv.c  -fPIC -DPIC -o build/.libs/SDL_iconv.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_malloc.c  -o build/SDL_malloc.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_malloc.c  -fPIC -DPIC -o build/.libs/SDL_malloc.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_qsort.c  -o build/SDL_qsort.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_qsort.c  -fPIC -DPIC -o build/.libs/SDL_qsort.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_stdlib.c  -o build/SDL_stdlib.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_stdlib.c  -fPIC -DPIC -o build/.libs/SDL_stdlib.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_string.c  -o build/SDL_string.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/stdlib/SDL_string.c  -fPIC -DPIC -o build/.libs/SDL_string.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/SDL_thread.c  -o build/SDL_thread.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/SDL_thread.c  -fPIC -DPIC -o build/.libs/SDL_thread.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/timer/SDL_timer.c  -o build/SDL_timer.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/timer/SDL_timer.c  -fPIC -DPIC -o build/.libs/SDL_timer.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_RLEaccel.c  -o build/SDL_RLEaccel.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_RLEaccel.c  -fPIC -DPIC -o build/.libs/SDL_RLEaccel.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit.c  -o build/SDL_blit.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit.c  -fPIC -DPIC -o build/.libs/SDL_blit.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit_0.c  -o build/SDL_blit_0.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit_0.c  -fPIC -DPIC -o build/.libs/SDL_blit_0.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit_1.c  -o build/SDL_blit_1.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit_1.c  -fPIC -DPIC -o build/.libs/SDL_blit_1.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit_A.c  -o build/SDL_blit_A.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit_A.c  -fPIC -DPIC -o build/.libs/SDL_blit_A.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit_N.c  -o build/SDL_blit_N.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_blit_N.c  -fPIC -DPIC -o build/.libs/SDL_blit_N.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_bmp.c  -o build/SDL_bmp.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_bmp.c  -fPIC -DPIC -o build/.libs/SDL_bmp.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_cursor.c  -o build/SDL_cursor.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_cursor.c  -fPIC -DPIC -o build/.libs/SDL_cursor.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_gamma.c  -o build/SDL_gamma.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_gamma.c  -fPIC -DPIC -o build/.libs/SDL_gamma.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_pixels.c  -o build/SDL_pixels.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_pixels.c  -fPIC -DPIC -o build/.libs/SDL_pixels.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_stretch.c  -o build/SDL_stretch.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_stretch.c  -fPIC -DPIC -o build/.libs/SDL_stretch.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_surface.c  -o build/SDL_surface.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_surface.c  -fPIC -DPIC -o build/.libs/SDL_surface.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_video.c  -o build/SDL_video.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_video.c  -fPIC -DPIC -o build/.libs/SDL_video.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_yuv.c  -o build/SDL_yuv.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_yuv.c  -fPIC -DPIC -o build/.libs/SDL_yuv.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_yuv_mmx.c  -o build/SDL_yuv_mmx.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_yuv_mmx.c  -fPIC -DPIC -o build/.libs/SDL_yuv_mmx.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_yuv_sw.c  -o build/SDL_yuv_sw.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/SDL_yuv_sw.c  -fPIC -DPIC -o build/.libs/SDL_yuv_sw.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/joystick/SDL_joystick.c  -o build/SDL_joystick.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/joystick/SDL_joystick.c  -fPIC -DPIC -o build/.libs/SDL_joystick.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dummy/SDL_nullevents.c  -o build/SDL_nullevents.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dummy/SDL_nullevents.c  -fPIC -DPIC -o build/.libs/SDL_nullevents.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dummy/SDL_nullmouse.c  -o build/SDL_nullmouse.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dummy/SDL_nullmouse.c  -fPIC -DPIC -o build/.libs/SDL_nullmouse.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dummy/SDL_nullvideo.c  -o build/SDL_nullvideo.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dummy/SDL_nullvideo.c  -fPIC -DPIC -o build/.libs/SDL_nullvideo.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/disk/SDL_diskaudio.c  -o build/SDL_diskaudio.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/disk/SDL_diskaudio.c  -fPIC -DPIC -o build/.libs/SDL_diskaudio.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/dummy/SDL_dummyaudio.c  -o build/SDL_dummyaudio.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/dummy/SDL_dummyaudio.c  -fPIC -DPIC -o build/.libs/SDL_dummyaudio.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/loadso/dlopen/SDL_sysloadso.c  -o build/SDL_sysloadso.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/loadso/dlopen/SDL_sysloadso.c  -fPIC -DPIC -o build/.libs/SDL_sysloadso.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/dsp/SDL_dspaudio.c  -o build/SDL_dspaudio.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/dsp/SDL_dspaudio.c  -fPIC -DPIC -o build/.libs/SDL_dspaudio.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/dma/SDL_dmaaudio.c  -o build/SDL_dmaaudio.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/dma/SDL_dmaaudio.c  -fPIC -DPIC -o build/.libs/SDL_dmaaudio.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/alsa/SDL_alsa_audio.c  -o build/SDL_alsa_audio.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/alsa/SDL_alsa_audio.c  -fPIC -DPIC -o build/.libs/SDL_alsa_audio.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/pulse/SDL_pulseaudio.c  -o build/SDL_pulseaudio.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/audio/pulse/SDL_pulseaudio.c  -fPIC -DPIC -o build/.libs/SDL_pulseaudio.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11dga.c  -o build/SDL_x11dga.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11dga.c  -fPIC -DPIC -o build/.libs/SDL_x11dga.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11dyn.c  -o build/SDL_x11dyn.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11dyn.c  -fPIC -DPIC -o build/.libs/SDL_x11dyn.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11events.c  -o build/SDL_x11events.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11events.c  -fPIC -DPIC -o build/.libs/SDL_x11events.o
+./src/video/x11/SDL_x11events.c: In function ‘X11_TranslateKeycode’:
+./src/video/x11/SDL_x11events.c:1124:2: warning: ‘XKeycodeToKeysym’ is deprecated [-Wdeprecated-declarations]
+  xsym = XKeycodeToKeysym(display, kc, 0);
+  ^~~~
+In file included from ./src/video/x11/SDL_x11events.c:27:
+/usr/include/X11/Xlib.h:1687:15: note: declared here
+ extern KeySym XKeycodeToKeysym(
+               ^~~~~~~~~~~~~~~~
+./src/video/x11/SDL_x11events.c: In function ‘get_modifier_masks’:
+./src/video/x11/SDL_x11events.c:1216:4: warning: ‘XKeycodeToKeysym’ is deprecated [-Wdeprecated-declarations]
+    KeySym ks = XKeycodeToKeysym(display, kc, 0);
+    ^~~~~~
+In file included from ./src/video/x11/SDL_x11events.c:27:
+/usr/include/X11/Xlib.h:1687:15: note: declared here
+ extern KeySym XKeycodeToKeysym(
+               ^~~~~~~~~~~~~~~~
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11gamma.c  -o build/SDL_x11gamma.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11gamma.c  -fPIC -DPIC -o build/.libs/SDL_x11gamma.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11gl.c  -o build/SDL_x11gl.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11gl.c  -fPIC -DPIC -o build/.libs/SDL_x11gl.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11image.c  -o build/SDL_x11image.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11image.c  -fPIC -DPIC -o build/.libs/SDL_x11image.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11modes.c  -o build/SDL_x11modes.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11modes.c  -fPIC -DPIC -o build/.libs/SDL_x11modes.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11mouse.c  -o build/SDL_x11mouse.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11mouse.c  -fPIC -DPIC -o build/.libs/SDL_x11mouse.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11video.c  -o build/SDL_x11video.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11video.c  -fPIC -DPIC -o build/.libs/SDL_x11video.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11wm.c  -o build/SDL_x11wm.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11wm.c  -fPIC -DPIC -o build/.libs/SDL_x11wm.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11yuv.c  -o build/SDL_x11yuv.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/x11/SDL_x11yuv.c  -fPIC -DPIC -o build/.libs/SDL_x11yuv.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xxf86dga/XF86DGA.c  -o build/XF86DGA.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xxf86dga/XF86DGA.c  -fPIC -DPIC -o build/.libs/XF86DGA.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xxf86dga/XF86DGA2.c  -o build/XF86DGA2.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xxf86dga/XF86DGA2.c  -fPIC -DPIC -o build/.libs/XF86DGA2.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dga/SDL_dgaevents.c  -o build/SDL_dgaevents.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dga/SDL_dgaevents.c  -fPIC -DPIC -o build/.libs/SDL_dgaevents.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dga/SDL_dgamouse.c  -o build/SDL_dgamouse.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dga/SDL_dgamouse.c  -fPIC -DPIC -o build/.libs/SDL_dgamouse.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dga/SDL_dgavideo.c  -o build/SDL_dgavideo.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/dga/SDL_dgavideo.c  -fPIC -DPIC -o build/.libs/SDL_dgavideo.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xxf86vm/XF86VMode.c  -o build/XF86VMode.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xxf86vm/XF86VMode.c  -fPIC -DPIC -o build/.libs/XF86VMode.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xv/Xv.c  -o build/Xv.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xv/Xv.c  -fPIC -DPIC -o build/.libs/Xv.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xinerama/Xinerama.c  -o build/Xinerama.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/Xinerama/Xinerama.c  -fPIC -DPIC -o build/.libs/Xinerama.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/XME/xme.c  -o build/xme.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/Xext/XME/xme.c  -fPIC -DPIC -o build/.libs/xme.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fb3dfx.c  -o build/SDL_fb3dfx.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fb3dfx.c  -fPIC -DPIC -o build/.libs/SDL_fb3dfx.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbelo.c  -o build/SDL_fbelo.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbelo.c  -fPIC -DPIC -o build/.libs/SDL_fbelo.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbevents.c  -o build/SDL_fbevents.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbevents.c  -fPIC -DPIC -o build/.libs/SDL_fbevents.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbmatrox.c  -o build/SDL_fbmatrox.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbmatrox.c  -fPIC -DPIC -o build/.libs/SDL_fbmatrox.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbmouse.c  -o build/SDL_fbmouse.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbmouse.c  -fPIC -DPIC -o build/.libs/SDL_fbmouse.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbriva.c  -o build/SDL_fbriva.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbriva.c  -fPIC -DPIC -o build/.libs/SDL_fbriva.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbvideo.c  -o build/SDL_fbvideo.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/video/fbcon/SDL_fbvideo.c  -fPIC -DPIC -o build/.libs/SDL_fbvideo.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/pthread/SDL_systhread.c  -o build/SDL_systhread.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/pthread/SDL_systhread.c  -fPIC -DPIC -o build/.libs/SDL_systhread.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/pthread/SDL_syssem.c  -o build/SDL_syssem.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/pthread/SDL_syssem.c  -fPIC -DPIC -o build/.libs/SDL_syssem.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/pthread/SDL_sysmutex.c  -o build/SDL_sysmutex.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/pthread/SDL_sysmutex.c  -fPIC -DPIC -o build/.libs/SDL_sysmutex.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/pthread/SDL_syscond.c  -o build/SDL_syscond.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/thread/pthread/SDL_syscond.c  -fPIC -DPIC -o build/.libs/SDL_syscond.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/joystick/linux/SDL_sysjoystick.c  -o build/SDL_sysjoystick.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/joystick/linux/SDL_sysjoystick.c  -fPIC -DPIC -o build/.libs/SDL_sysjoystick.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/cdrom/linux/SDL_syscdrom.c  -o build/SDL_syscdrom.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/cdrom/linux/SDL_syscdrom.c  -fPIC -DPIC -o build/.libs/SDL_syscdrom.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/timer/unix/SDL_systimer.c  -o build/SDL_systimer.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/timer/unix/SDL_systimer.c  -fPIC -DPIC -o build/.libs/SDL_systimer.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/main/dummy/SDL_dummy_main.c  -o build/SDL_dummy_main.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/main/dummy/SDL_dummy_main.c  -fPIC -DPIC -o build/.libs/SDL_dummy_main.o
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/SDL_error.c  -o build/SDL_error.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/SDL_error.c  -fPIC -DPIC -o build/.libs/SDL_error.o
+/bin/sh ./libtool --mode=link gcc -o build/libSDLmain.la build/SDL_dummy_main.lo -L/app/lib -fstack-protector-strong -Wl,-z,relro,-z,now -lm -ldl -lpthread -no-undefined -rpath /app/lib -release 1.2 -version-info 11:4:11 -static
+libtool: link: ar cru build/.libs/libSDLmain.a  build/.libs/SDL_dummy_main.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib build/.libs/libSDLmain.a
+libtool: link: ( cd "build/.libs" && rm -f "libSDLmain.la" && ln -s "../libSDLmain.la" "libSDLmain.la" )
+/bin/sh ./libtool --mode=compile gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden  -D_REENTRANT   -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/SDL.c  -o build/SDL.lo
+libtool: compile:  gcc -O2 -g -fstack-protector-strong -O2 -D_FORTIFY_SOURCE=2 -I./include -D_GNU_SOURCE=1 -fvisibility=hidden -D_REENTRANT -DXTHREADS -D_REENTRANT -DHAVE_LINUX_VERSION_H -Wall -c ./src/SDL.c  -fPIC -DPIC -o build/.libs/SDL.o
+/bin/sh ./libtool --mode=link gcc -o build/libSDL.la build/SDL.lo build/SDL_error.lo build/SDL_fatal.lo build/SDL_audio.lo build/SDL_audiocvt.lo build/SDL_audiodev.lo build/SDL_mixer.lo build/SDL_mixer_MMX.lo build/SDL_mixer_MMX_VC.lo build/SDL_mixer_m68k.lo build/SDL_wave.lo build/SDL_cdrom.lo build/SDL_cpuinfo.lo build/SDL_active.lo build/SDL_events.lo build/SDL_expose.lo build/SDL_keyboard.lo build/SDL_mouse.lo build/SDL_quit.lo build/SDL_resize.lo build/SDL_rwops.lo build/SDL_getenv.lo build/SDL_iconv.lo build/SDL_malloc.lo build/SDL_qsort.lo build/SDL_stdlib.lo build/SDL_string.lo build/SDL_thread.lo build/SDL_timer.lo build/SDL_RLEaccel.lo build/SDL_blit.lo build/SDL_blit_0.lo build/SDL_blit_1.lo build/SDL_blit_A.lo build/SDL_blit_N.lo build/SDL_bmp.lo build/SDL_cursor.lo build/SDL_gamma.lo build/SDL_pixels.lo build/SDL_stretch.lo build/SDL_surface.lo build/SDL_video.lo build/SDL_yuv.lo build/SDL_yuv_mmx.lo build/SDL_yuv_sw.lo build/SDL_joystick.lo build/SDL_nullevents.lo build/SDL_nullmouse.lo build/SDL_nullvideo.lo build/SDL_diskaudio.lo build/SDL_dummyaudio.lo build/SDL_sysloadso.lo build/SDL_dspaudio.lo build/SDL_dmaaudio.lo build/SDL_alsa_audio.lo build/SDL_pulseaudio.lo build/SDL_x11dga.lo build/SDL_x11dyn.lo build/SDL_x11events.lo build/SDL_x11gamma.lo build/SDL_x11gl.lo build/SDL_x11image.lo build/SDL_x11modes.lo build/SDL_x11mouse.lo build/SDL_x11video.lo build/SDL_x11wm.lo build/SDL_x11yuv.lo build/XF86DGA.lo build/XF86DGA2.lo build/SDL_dgaevents.lo build/SDL_dgamouse.lo build/SDL_dgavideo.lo build/XF86VMode.lo build/Xv.lo build/Xinerama.lo build/xme.lo build/SDL_fb3dfx.lo build/SDL_fbelo.lo build/SDL_fbevents.lo build/SDL_fbmatrox.lo build/SDL_fbmouse.lo build/SDL_fbriva.lo build/SDL_fbvideo.lo build/SDL_systhread.lo build/SDL_syssem.lo build/SDL_sysmutex.lo build/SDL_syscond.lo build/SDL_sysjoystick.lo build/SDL_syscdrom.lo build/SDL_systimer.lo -L/app/lib -fstack-protector-strong -Wl,-z,relro,-z,now -lm -ldl -lpthread -no-undefined -rpath /app/lib -release 1.2 -version-info 11:4:11
+libtool: link: gcc -shared  -fPIC -DPIC  build/.libs/SDL.o build/.libs/SDL_error.o build/.libs/SDL_fatal.o build/.libs/SDL_audio.o build/.libs/SDL_audiocvt.o build/.libs/SDL_audiodev.o build/.libs/SDL_mixer.o build/.libs/SDL_mixer_MMX.o build/.libs/SDL_mixer_MMX_VC.o build/.libs/SDL_mixer_m68k.o build/.libs/SDL_wave.o build/.libs/SDL_cdrom.o build/.libs/SDL_cpuinfo.o build/.libs/SDL_active.o build/.libs/SDL_events.o build/.libs/SDL_expose.o build/.libs/SDL_keyboard.o build/.libs/SDL_mouse.o build/.libs/SDL_quit.o build/.libs/SDL_resize.o build/.libs/SDL_rwops.o build/.libs/SDL_getenv.o build/.libs/SDL_iconv.o build/.libs/SDL_malloc.o build/.libs/SDL_qsort.o build/.libs/SDL_stdlib.o build/.libs/SDL_string.o build/.libs/SDL_thread.o build/.libs/SDL_timer.o build/.libs/SDL_RLEaccel.o build/.libs/SDL_blit.o build/.libs/SDL_blit_0.o build/.libs/SDL_blit_1.o build/.libs/SDL_blit_A.o build/.libs/SDL_blit_N.o build/.libs/SDL_bmp.o build/.libs/SDL_cursor.o build/.libs/SDL_gamma.o build/.libs/SDL_pixels.o build/.libs/SDL_stretch.o build/.libs/SDL_surface.o build/.libs/SDL_video.o build/.libs/SDL_yuv.o build/.libs/SDL_yuv_mmx.o build/.libs/SDL_yuv_sw.o build/.libs/SDL_joystick.o build/.libs/SDL_nullevents.o build/.libs/SDL_nullmouse.o build/.libs/SDL_nullvideo.o build/.libs/SDL_diskaudio.o build/.libs/SDL_dummyaudio.o build/.libs/SDL_sysloadso.o build/.libs/SDL_dspaudio.o build/.libs/SDL_dmaaudio.o build/.libs/SDL_alsa_audio.o build/.libs/SDL_pulseaudio.o build/.libs/SDL_x11dga.o build/.libs/SDL_x11dyn.o build/.libs/SDL_x11events.o build/.libs/SDL_x11gamma.o build/.libs/SDL_x11gl.o build/.libs/SDL_x11image.o build/.libs/SDL_x11modes.o build/.libs/SDL_x11mouse.o build/.libs/SDL_x11video.o build/.libs/SDL_x11wm.o build/.libs/SDL_x11yuv.o build/.libs/XF86DGA.o build/.libs/XF86DGA2.o build/.libs/SDL_dgaevents.o build/.libs/SDL_dgamouse.o build/.libs/SDL_dgavideo.o build/.libs/XF86VMode.o build/.libs/Xv.o build/.libs/Xinerama.o build/.libs/xme.o build/.libs/SDL_fb3dfx.o build/.libs/SDL_fbelo.o build/.libs/SDL_fbevents.o build/.libs/SDL_fbmatrox.o build/.libs/SDL_fbmouse.o build/.libs/SDL_fbriva.o build/.libs/SDL_fbvideo.o build/.libs/SDL_systhread.o build/.libs/SDL_syssem.o build/.libs/SDL_sysmutex.o build/.libs/SDL_syscond.o build/.libs/SDL_sysjoystick.o build/.libs/SDL_syscdrom.o build/.libs/SDL_systimer.o   -L/app/lib -lm -ldl -lpthread  -fstack-protector-strong -Wl,-z -Wl,relro -Wl,-z -Wl,now   -Wl,-soname -Wl,libSDL-1.2.so.0 -o build/.libs/libSDL-1.2.so.0.11.4
+libtool: link: (cd "build/.libs" && rm -f "libSDL-1.2.so.0" && ln -s "libSDL-1.2.so.0.11.4" "libSDL-1.2.so.0")
+libtool: link: (cd "build/.libs" && rm -f "libSDL.so" && ln -s "libSDL-1.2.so.0.11.4" "libSDL.so")
+libtool: link: ( cd "build/.libs" && rm -f "libSDL.la" && ln -s "../libSDL.la" "libSDL.la" )
+/bin/sh build-scripts/mkinstalldirs /app/bin
+mkdir -p -- /app/bin
+/usr/bin/install -c -m 755 sdl-config /app/bin/sdl-config
+/bin/sh build-scripts/mkinstalldirs /app/include/SDL
+mkdir -p -- /app/include/SDL
+for file in SDL.h SDL_active.h SDL_audio.h SDL_byteorder.h SDL_cdrom.h SDL_cpuinfo.h SDL_endian.h SDL_error.h SDL_events.h SDL_getenv.h SDL_joystick.h SDL_keyboard.h SDL_keysym.h SDL_loadso.h SDL_main.h SDL_mouse.h SDL_mutex.h SDL_name.h SDL_opengl.h SDL_platform.h SDL_quit.h SDL_rwops.h SDL_stdinc.h SDL_syswm.h SDL_thread.h SDL_timer.h SDL_types.h SDL_version.h SDL_video.h begin_code.h close_code.h; do \
+    /usr/bin/install -c -m 644 ./include/$file /app/include/SDL/$file; \
+done
+/usr/bin/install -c -m 644 include/SDL_config.h /app/include/SDL/SDL_config.h
+/bin/sh build-scripts/mkinstalldirs /app/lib
+mkdir -p -- /app/lib
+/bin/sh ./libtool --mode=install /usr/bin/install -c build/libSDL.la /app/lib/libSDL.la
+libtool: install: /usr/bin/install -c build/.libs/libSDL-1.2.so.0.11.4 /app/lib/libSDL-1.2.so.0.11.4
+libtool: install: (cd /app/lib && { ln -s -f libSDL-1.2.so.0.11.4 libSDL-1.2.so.0 || { rm -f libSDL-1.2.so.0 && ln -s libSDL-1.2.so.0.11.4 libSDL-1.2.so.0; }; })
+libtool: install: (cd /app/lib && { ln -s -f libSDL-1.2.so.0.11.4 libSDL.so || { rm -f libSDL.so && ln -s libSDL-1.2.so.0.11.4 libSDL.so; }; })
+libtool: install: /usr/bin/install -c build/.libs/libSDL.lai /app/lib/libSDL.la
+libtool: finish: PATH="/app/bin:/usr/bin:/sbin" ldconfig -n /app/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /app/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+/bin/sh ./libtool --mode=install /usr/bin/install -c build/libSDLmain.la /app/lib/libSDLmain.la
+libtool: install: /usr/bin/install -c build/.libs/libSDLmain.lai /app/lib/libSDLmain.la
+libtool: install: /usr/bin/install -c build/.libs/libSDLmain.a /app/lib/libSDLmain.a
+libtool: install: chmod 644 /app/lib/libSDLmain.a
+libtool: install: ranlib /app/lib/libSDLmain.a
+libtool: finish: PATH="/app/bin:/usr/bin:/sbin" ldconfig -n /app/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /app/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+/bin/sh build-scripts/mkinstalldirs /app/share/aclocal
+mkdir -p -- /app/share/aclocal
+/usr/bin/install -c -m 644 ./sdl.m4 /app/share/aclocal/sdl.m4
+/bin/sh build-scripts/mkinstalldirs /app/lib/pkgconfig
+mkdir -p -- /app/lib/pkgconfig
+/usr/bin/install -c -m 644 sdl.pc /app/lib/pkgconfig
+/bin/sh build-scripts/mkinstalldirs /app/share/man/man3
+mkdir -p -- /app/share/man/man3
+for src in ./docs/man3/*.3; do \
+    file=`echo $src | sed -e 's|^.*/||'`; \
+    /usr/bin/install -c -m 644 $src /app/share/man/man3/$file; \
+done
+compressing debuginfo in: /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/rofiles/rofiles-IXmxlE/files/lib/libSDL-1.2.so.0.11.4
+processing: /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/rofiles/rofiles-IXmxlE/files/lib/libSDL-1.2.so.0.11.4
+[25] .debug_aranges compressed -> .zdebug_aranges (4288 => 1017 23.72%)
+[26] .debug_info compressed -> .zdebug_info (1204702 => 575853 47.80%)
+[27] .debug_abbrev compressed -> .zdebug_abbrev (82201 => 11996 14.59%)
+[28] .debug_line compressed -> .zdebug_line (267592 => 100390 37.52%)
+[29] .debug_str compressed -> .zdebug_str (71626 => 25638 35.79%)
+[30] .debug_loc compressed -> .zdebug_loc (648451 => 131716 20.31%)
+[31] .debug_ranges compressed -> .zdebug_ranges (50144 => 9708 19.36%)
+[34] Updating section string table
+stripping /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/rofiles/rofiles-IXmxlE/files/lib/libSDL-1.2.so.0.11.4 to /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/rofiles/rofiles-IXmxlE/files/lib/debug/lib/libSDL-1.2.so.0.11.4.debug
+Committing stage build-SDL1 to cache
+========================================================================
+Building module snes9x in /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/build/snes9x-1
+========================================================================
+Copying file po/Makefile.in.in
+
+Please add the files
+  codeset.m4 gettext.m4 glibc21.m4 iconv.m4 isc-posix.m4 lcmessage.m4
+  progtest.m4
+from the /usr/share/aclocal directory to your autoconf macro directory
+or directly to your aclocal.m4 file.
+You will also need config.guess and config.sub, which you can get from
+ftp://ftp.gnu.org/pub/gnu/config/.
+
+configure.ac:16: installing './compile'
+configure.ac:23: installing './install-sh'
+configure.ac:24: installing './missing'
+Makefile.am: installing './depcomp'
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for ranlib... ranlib
+checking whether g++ supports C++11 features by default... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking dependency style of g++... gcc3
+checking whether make supports nested variables... (cached) yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.37.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.28.0
+checking for XML::Parser... ok
+checking how to run the C++ preprocessor... g++ -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GTK... yes
+checking for GLIB... yes
+checking for LIBXML... yes
+checking for XRANDR... yes
+checking for glGetString in -lGL... yes
+checking for EPOXY... yes
+checking for SDL... yes
+checking for XV... yes
+checking for PORTAUDIO... no
+Cannot find PortAudio.
+--> Disabling PortAudio support
+checking sys/soundcard.h usability... yes
+checking sys/soundcard.h presence... yes
+checking for sys/soundcard.h... yes
+checking for PULSEAUDIO... yes
+checking for LIBPNG... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzread in -lz... yes
+checking for mkstemp... yes
+checking for strings.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking for stdint.h... (cached) yes
+checking if sizeof(void *) == sizeof(int)... no
+checking if rightshift int8 is arithmetic... yes
+checking if rightshift int16 is arithmetic... yes
+checking if rightshift int32 is arithmetic... yes
+checking if rightshift int64 is arithmetic... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating data/Makefile
+config.status: creating po/Makefile.in
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Snes9x will build with support for the following:
+
+    GTK+ 3.0
+    PulseAudio
+    OpenGL
+    XVideo
+    Joysticks
+    NetPlay
+
+Making all in data
+make[1]: Entering directory '/run/build/snes9x/gtk/data'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/run/build/snes9x/gtk/data'
+Making all in po
+make[1]: Entering directory '/run/build/snes9x/gtk/po'
+  MSGFMT es.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ru.gmo
+  MSGFMT sr@latin.gmo
+  MSGFMT ja.gmo
+  MSGFMT fr_FR.gmo
+make[1]: Leaving directory '/run/build/snes9x/gtk/po'
+make[1]: Entering directory '/run/build/snes9x/gtk'
+gcc src/sourcify.c -o src/sourcify
+  CXX      ../snes9x_gtk-msu1.o
+  CXX      ../snes9x_gtk-dsp.o
+  CXX      ../snes9x_gtk-dsp1.o
+  CXX      ../snes9x_gtk-dsp2.o
+  CXX      ../snes9x_gtk-dsp3.o
+  CXX      ../snes9x_gtk-dsp4.o
+  CXX      ../snes9x_gtk-spc7110.o
+  CXX      ../snes9x_gtk-obc1.o
+  CXX      ../snes9x_gtk-seta.o
+  CXX      ../snes9x_gtk-seta010.o
+  CXX      ../snes9x_gtk-seta011.o
+  CXX      ../snes9x_gtk-seta018.o
+  CXX      ../snes9x_gtk-controls.o
+../controls.cpp: In function ‘void S9xApplyCommand(s9xcommand_t, int16, int16)’:
+../controls.cpp:2537:40: warning: ‘.’ directive output may be truncated writing 1 byte into a region of size between 0 and 4096 [-Wformat-truncation=]
+       snprintf(filename, PATH_MAX + 1, "%s%s%s.%03d", S9xGetDirectory(SNAPSHOT_DIR), SLASH_STR, def, i - QuickSave000);
+                                        ^~~~~~~~~~~~~
+../controls.cpp:2537:40: note: directive argument in the range [-29, 33]
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/c++/8.2.0/cstdio:42,
+                 from /usr/include/c++/8.2.0/ext/string_conversions.h:43,
+                 from /usr/include/c++/8.2.0/bits/basic_string.h:6391,
+                 from /usr/include/c++/8.2.0/string:52,
+                 from /usr/include/c++/8.2.0/stdexcept:39,
+                 from /usr/include/c++/8.2.0/array:39,
+                 from /usr/include/c++/8.2.0/tuple:39,
+                 from /usr/include/c++/8.2.0/bits/stl_map.h:63,
+                 from /usr/include/c++/8.2.0/map:61,
+                 from ../controls.cpp:193:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 6 or more bytes (assuming 4102) into a destination of size 4097
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../controls.cpp:2539:26: warning: ‘%s’ directive output may be truncated writing up to 4096 bytes into a region of size 256 [-Wformat-truncation=]
+       snprintf(buf, 256, "%s.%03d saved", def, i - QuickSave000);
+                          ^~~~~~~~~~~~~~~  ~~~
+../controls.cpp:2539:26: note: directive argument in the range [-29, 33]
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/c++/8.2.0/cstdio:42,
+                 from /usr/include/c++/8.2.0/ext/string_conversions.h:43,
+                 from /usr/include/c++/8.2.0/bits/basic_string.h:6391,
+                 from /usr/include/c++/8.2.0/string:52,
+                 from /usr/include/c++/8.2.0/stdexcept:39,
+                 from /usr/include/c++/8.2.0/array:39,
+                 from /usr/include/c++/8.2.0/tuple:39,
+                 from /usr/include/c++/8.2.0/bits/stl_map.h:63,
+                 from /usr/include/c++/8.2.0/map:61,
+                 from ../controls.cpp:193:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 11 and 4107 bytes into a destination of size 256
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../controls.cpp:2508:40: warning: ‘.’ directive output may be truncated writing 1 byte into a region of size between 0 and 4096 [-Wformat-truncation=]
+       snprintf(filename, PATH_MAX + 1, "%s%s%s.%03d", S9xGetDirectory(SNAPSHOT_DIR), SLASH_STR, def, i - QuickLoad000);
+                                        ^~~~~~~~~~~~~
+../controls.cpp:2508:40: note: directive argument in the range [-18, 44]
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/c++/8.2.0/cstdio:42,
+                 from /usr/include/c++/8.2.0/ext/string_conversions.h:43,
+                 from /usr/include/c++/8.2.0/bits/basic_string.h:6391,
+                 from /usr/include/c++/8.2.0/string:52,
+                 from /usr/include/c++/8.2.0/stdexcept:39,
+                 from /usr/include/c++/8.2.0/array:39,
+                 from /usr/include/c++/8.2.0/tuple:39,
+                 from /usr/include/c++/8.2.0/bits/stl_map.h:63,
+                 from /usr/include/c++/8.2.0/map:61,
+                 from ../controls.cpp:193:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 6 or more bytes (assuming 4102) into a destination of size 4097
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../controls.cpp:2512:27: warning: ‘%s’ directive output may be truncated writing up to 4096 bytes into a region of size 256 [-Wformat-truncation=]
+        snprintf(buf, 256, "%s.%03d loaded", def, i - QuickLoad000);
+                           ^~~~~~~~~~~~~~~~  ~~~
+../controls.cpp:2512:27: note: directive argument in the range [-18, 44]
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/c++/8.2.0/cstdio:42,
+                 from /usr/include/c++/8.2.0/ext/string_conversions.h:43,
+                 from /usr/include/c++/8.2.0/bits/basic_string.h:6391,
+                 from /usr/include/c++/8.2.0/string:52,
+                 from /usr/include/c++/8.2.0/stdexcept:39,
+                 from /usr/include/c++/8.2.0/array:39,
+                 from /usr/include/c++/8.2.0/tuple:39,
+                 from /usr/include/c++/8.2.0/bits/stl_map.h:63,
+                 from /usr/include/c++/8.2.0/map:61,
+                 from ../controls.cpp:193:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 12 and 4108 bytes into a destination of size 256
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../controls.cpp:2471:40: warning: ‘.’ directive output may be truncated writing 1 byte into a region of size between 0 and 4096 [-Wformat-truncation=]
+       snprintf(filename, PATH_MAX + 1, "%s%s%s.%.*s", S9xGetDirectory(SNAPSHOT_DIR), SLASH_STR, def, _MAX_EXT - 1, "oops");
+                                        ^~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/c++/8.2.0/cstdio:42,
+                 from /usr/include/c++/8.2.0/ext/string_conversions.h:43,
+                 from /usr/include/c++/8.2.0/bits/basic_string.h:6391,
+                 from /usr/include/c++/8.2.0/string:52,
+                 from /usr/include/c++/8.2.0/stdexcept:39,
+                 from /usr/include/c++/8.2.0/array:39,
+                 from /usr/include/c++/8.2.0/tuple:39,
+                 from /usr/include/c++/8.2.0/bits/stl_map.h:63,
+                 from /usr/include/c++/8.2.0/map:61,
+                 from ../controls.cpp:193:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 7 or more bytes (assuming 4103) into a destination of size 4097
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../controls.cpp:2475:27: warning: ‘%s’ directive output may be truncated writing up to 4096 bytes into a region of size 256 [-Wformat-truncation=]
+        snprintf(buf, 256, "%s.%.*s loaded", def, _MAX_EXT - 1, "oops");
+                           ^~~~~~~~~~~~~~~~  ~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/c++/8.2.0/cstdio:42,
+                 from /usr/include/c++/8.2.0/ext/string_conversions.h:43,
+                 from /usr/include/c++/8.2.0/bits/basic_string.h:6391,
+                 from /usr/include/c++/8.2.0/string:52,
+                 from /usr/include/c++/8.2.0/stdexcept:39,
+                 from /usr/include/c++/8.2.0/array:39,
+                 from /usr/include/c++/8.2.0/tuple:39,
+                 from /usr/include/c++/8.2.0/bits/stl_map.h:63,
+                 from /usr/include/c++/8.2.0/map:61,
+                 from ../controls.cpp:193:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 13 and 4109 bytes into a destination of size 256
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CXX      ../snes9x_gtk-crosshairs.o
+  CXX      ../snes9x_gtk-cpu.o
+  CXX      ../snes9x_gtk-sa1.o
+  CXX      ../snes9x_gtk-debug.o
+  CXX      ../snes9x_gtk-sdd1.o
+  CXX      ../snes9x_gtk-tile.o
+  CXX      ../snes9x_gtk-srtc.o
+  CXX      ../snes9x_gtk-gfx.o
+  CXX      ../snes9x_gtk-memmap.o
+../memmap.cpp: In member function ‘bool8 CMemory::LoadSRTC()’:
+../memmap.cpp:2046:9: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+  size_t ignore;
+         ^~~~~~
+../memmap.cpp: In member function ‘bool8 CMemory::SaveSRTC()’:
+../memmap.cpp:2061:9: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+  size_t ignore;
+         ^~~~~~
+../memmap.cpp: In member function ‘bool8 CMemory::SaveSRAM(const char*)’:
+../memmap.cpp:2194:11: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+    size_t ignore;
+           ^~~~~~
+../memmap.cpp:2211:11: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+    size_t ignore;
+           ^~~~~~
+../memmap.cpp: In member function ‘bool8 CMemory::SaveMPAK(const char*)’:
+../memmap.cpp:2240:12: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+     size_t ignore;
+            ^~~~~~
+  CXX      ../snes9x_gtk-clip.o
+  CXX      ../snes9x_gtk-ppu.o
+  CXX      ../snes9x_gtk-dma.o
+  CXX      ../snes9x_gtk-snes9x.o
+  CXX      ../snes9x_gtk-globals.o
+  CXX      ../snes9x_gtk-stream.o
+  CXX      ../snes9x_gtk-conffile.o
+  CXX      ../snes9x_gtk-bsx.o
+  CXX      ../snes9x_gtk-logger.o
+../logger.cpp: In function ‘void S9xVideoLogger(void*, int, int, int, int)’:
+../logger.cpp:259:10: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+   size_t ignore;
+          ^~~~~~
+../logger.cpp: In function ‘void S9xAudioLogger(void*, int)’:
+../logger.cpp:279:10: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+   size_t ignore;
+          ^~~~~~
+  CXX      ../snes9x_gtk-snapshot.o
+../snapshot.cpp: In function ‘void S9xResetSaveTimer(bool8)’:
+../snapshot.cpp:1196:36: warning: ‘.’ directive output may be truncated writing 1 byte into a region of size between 0 and 4096 [-Wformat-truncation=]
+   snprintf(filename, PATH_MAX + 1, "%s%s%s.%.*s", S9xGetDirectory(SNAPSHOT_DIR), SLASH_STR, def, _MAX_EXT - 1, "oops");
+                                    ^~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from ../port.h:196,
+                 from ../snes9x.h:200,
+                 from ../snapshot.cpp:194:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 7 or more bytes (assuming 4103) into a destination of size 4097
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CXX      ../snes9x_gtk-screenshot.o
+  CXX      ../snes9x_gtk-movie.o
+../movie.cpp: In function ‘void flush_movie()’:
+../movie.cpp:554:9: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+  size_t ignore;
+         ^~~~~~
+../movie.cpp: In function ‘void truncate_movie()’:
+../movie.cpp:566:6: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+  int ignore;
+      ^~~~~~
+../movie.cpp: In function ‘void write_movie_header(FILE*, SMovie*)’:
+../movie.cpp:653:9: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+  size_t ignore;
+         ^~~~~~
+../movie.cpp: In function ‘void write_movie_extrarominfo(FILE*, SMovie*)’:
+../movie.cpp:667:9: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+  size_t ignore;
+         ^~~~~~
+../movie.cpp: In function ‘int S9xMovieOpen(const char*, bool8)’:
+../movie.cpp:855:9: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+  size_t ignore;
+         ^~~~~~
+../movie.cpp: In function ‘int S9xMovieCreate(const char*, uint8, uint8, const wchar_t*, int)’:
+../movie.cpp:920:10: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+   size_t ignore;
+          ^~~~~~
+../movie.cpp: In function ‘void S9xMovieUpdate(bool)’:
+../movie.cpp:1088:11: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+    size_t ignore;
+           ^~~~~~
+../movie.cpp: In function ‘void S9xMovieUpdateOnReset()’:
+../movie.cpp:1114:10: warning: variable ‘ignore’ set but not used [-Wunused-but-set-variable]
+   size_t ignore;
+          ^~~~~~
+  CXX      ../snes9x_gtk-statemanager.o
+  CXX      ../snes9x_gtk-sha256.o
+  CXX      ../snes9x_gtk-bml.o
+../bml.cpp: In function ‘bml_node* bml_parse_file(const char*)’:
+../bml.cpp:379:11: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fread (buffer, file_size, 1, file);
+     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CXX      ../snes9x_gtk-cpuops.o
+  CXX      ../snes9x_gtk-cpuexec.o
+  CXX      ../snes9x_gtk-sa1cpu.o
+  CXX      ../snes9x_gtk-cheats.o
+  CXX      ../snes9x_gtk-cheats2.o
+In file included from /usr/include/stdio.h:862,
+                 from ../port.h:196,
+                 from ../snes9x.h:200,
+                 from ../cheats2.cpp:192:
+In function ‘int snprintf(char*, size_t, const char*, ...)’,
+    inlined from ‘bool8 S9xLoadCheatFileClassic(const char*)’ at ../cheats2.cpp:791:18:
+/usr/include/bits/stdio2.h:64:35: warning: ‘int __builtin___snprintf_chk(char*, long unsigned int, int, long unsigned int, const char*, ...)’ specified bound 21 exceeds destination size 10 [-Wstringop-overflow=]
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CXX      ../snes9x_gtk-sdd1emu.o
+  CXX      ../snes9x_gtk-netplay.o
+  CXX      ../snes9x_gtk-server.o
+  CXX      ../snes9x_gtk-loadzip.o
+  CXX      src/snes9x_gtk-gtk_display_driver_opengl.o
+  CXX      src/snes9x_gtk-gtk_shader_parameters.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_display_driver_opengl.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_display_driver_opengl.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_display_driver_xv.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_shader_parameters.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_shader_parameters.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_netplay_dialog.o
+  CXX      src/snes9x_gtk-gtk_netplay.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_display_driver_xv.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_display_driver_xv.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_builder_window.h:4,
+                 from src/gtk_netplay_dialog.h:4,
+                 from src/gtk_netplay_dialog.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_builder_window.h:4,
+                 from src/gtk_netplay_dialog.h:4,
+                 from src/gtk_netplay_dialog.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+src/gtk_shader_parameters.cpp: In function ‘void dialog_response(GtkDialog*, gint, gpointer)’:
+src/gtk_shader_parameters.cpp:65:18: warning: ignoring return value of ‘char* realpath(const char*, char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         realpath (config_file, gui_config->fragment_shader);
+         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_netplay.cpp:3:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_netplay.cpp:3:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      ../jma/libjma_a-s9x-jma.o
+  CXX      ../jma/libjma_a-7zlzma.o
+  CXX      ../jma/libjma_a-crc32.o
+  CXX      ../jma/libjma_a-jma.o
+  CXX      ../jma/libjma_a-lzma.o
+  CXX      ../jma/libjma_a-lzmadec.o
+  CXX      ../jma/libjma_a-winout.o
+  CXX      ../filter/snes9x_gtk-2xsai.o
+  CXX      ../filter/snes9x_gtk-epx.o
+  CXX      src/snes9x_gtk-filter_epx_unsafe.o
+  CXX      src/snes9x_gtk-gtk_binding.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_binding.cpp:4:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_binding.cpp:4:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_cheat.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_cheat.cpp:3:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_cheat.cpp:3:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_config.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_config.cpp:9:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_config.cpp:9:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_control.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_control.cpp:7:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_control.cpp:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_display.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_display.cpp:5:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_display.cpp:5:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_display_driver_gtk.o
+  CXX      ../jma/libjma_a-inbyte.o
+  CXX      ../jma/libjma_a-iiostrm.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_display_driver_gtk.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_display_driver_gtk.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_file.o
+src/sourcify src/snes9x.ui src/gtk_snes9x_ui.cpp snes9x_ui
+  CXX      src/snes9x_gtk-gtk_builder_window.o
+  CXX      src/snes9x_gtk-gtk_preferences.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_builder_window.h:4,
+                 from src/gtk_builder_window.cpp:3:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_builder_window.h:4,
+                 from src/gtk_builder_window.cpp:3:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_s9x.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_file.cpp:2:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_file.cpp:2:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_preferences.h:4,
+                 from src/gtk_preferences.cpp:6:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_s9xwindow.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_preferences.h:4,
+                 from src/gtk_preferences.cpp:6:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_s9x.cpp:7:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_s9x.cpp:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_shader_parameters.h:4,
+                 from src/gtk_s9xwindow.cpp:14:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_shader_parameters.h:4,
+                 from src/gtk_s9xwindow.cpp:14:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+src/gtk_file.cpp: In function ‘const char* S9xGetFilenameInc(const char*, s9x_getdirtype)’:
+src/gtk_file.cpp:122:19: warning: ‘%03d’ directive output may be truncated writing between 3 and 11 bytes into a region of size between 0 and 4096 [-Wformat-truncation=]
+                   "%s" SLASH_STR "%s%03d%s", d, fname, i, e);
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_file.cpp:122:19: note: using the range [-2147483648, 2147483647] for directive argument
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from src/gtk_file.cpp:2:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 5 or more bytes (assuming 4101) into a destination of size 4097
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_file.cpp: In function ‘const char* S9xGetFilename(const char*, s9x_getdirtype)’:
+src/gtk_file.cpp:212:44: warning: ‘__builtin___snprintf_chk’ output may be truncated before the last format character [-Wformat-truncation=]
+     snprintf (filename, sizeof (filename), "%s" SLASH_STR "%s%s",
+                                            ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from src/gtk_file.cpp:2:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 2 or more bytes (assuming 4098) into a destination of size 4097
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_file.cpp: In function ‘void S9xQuickSaveSlot(int)’:
+src/gtk_file.cpp:504:35: warning: ‘.’ directive output may be truncated writing 1 byte into a region of size between 0 and 4095 [-Wformat-truncation=]
+     snprintf (filename, PATH_MAX, "%s%s%s.%03d",
+                                   ^~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from src/gtk_file.cpp:2:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 6 or more bytes (assuming 4101) into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_file.cpp:510:34: warning: ‘%03d’ directive output may be truncated writing between 3 and 11 bytes into a region of size between 0 and 4095 [-Wformat-truncation=]
+         snprintf (buf, PATH_MAX, "%s.%03d saved", def, slot);
+                                  ^~~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from src/gtk_file.cpp:2:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 11 and 4114 bytes into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_file.cpp: In function ‘void S9xQuickLoadSlot(int)’:
+src/gtk_file.cpp:529:35: warning: ‘.’ directive output may be truncated writing 1 byte into a region of size between 0 and 4095 [-Wformat-truncation=]
+     snprintf (filename, PATH_MAX, "%s%s%s.%03d",
+                                   ^~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from src/gtk_file.cpp:2:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 6 or more bytes (assuming 4101) into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_file.cpp:547:35: warning: ‘.zs’ directive output may be truncated writing 3 bytes into a region of size between 0 and 4095 [-Wformat-truncation=]
+     snprintf (filename, PATH_MAX, "%s%s%s.zs%c",
+                                   ^~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from src/gtk_file.cpp:2:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output 6 or more bytes (assuming 4101) into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_file.cpp:557:19: warning: ‘%s’ directive output may be truncated writing up to 4095 bytes into a region of size 4071 [-Wformat-truncation=]
+                   "Loaded ZSNES freeze file %s.zs%c",
+                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   def, digits [slot]);
+                   ~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from src/gtk_file.cpp:2:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 30 and 4125 bytes into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_file.cpp:538:34: warning: ‘%03d’ directive output may be truncated writing between 3 and 11 bytes into a region of size between 0 and 4095 [-Wformat-truncation=]
+         snprintf (buf, PATH_MAX, "%s.%03d loaded", def, slot);
+                                  ^~~~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from src/gtk_file.cpp:2:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 12 and 4115 bytes into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_s9xwindow.cpp: In member function ‘const char* Snes9xWindow::open_movie_dialog(bool)’:
+src/gtk_s9xwindow.cpp:892:43: warning: ‘.smv’ directive output may be truncated writing 4 bytes into a region of size between 1 and 4096 [-Wformat-truncation=]
+         snprintf (default_name, PATH_MAX, "%s.smv", def);
+                                           ^~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from src/gtk_s9xwindow.cpp:1:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 5 and 4100 bytes into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_s9xwindow.cpp: In member function ‘void Snes9xWindow::save_state_dialog()’:
+src/gtk_s9xwindow.cpp:1158:39: warning: ‘.sst’ directive output may be truncated writing 4 bytes into a region of size between 1 and 4096 [-Wformat-truncation=]
+     snprintf (default_name, PATH_MAX, "%s.sst", def);
+                                       ^~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from src/gtk_s9xwindow.cpp:1:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 5 and 4100 bytes into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/gtk_s9xwindow.cpp: In member function ‘void Snes9xWindow::save_spc_dialog()’:
+src/gtk_s9xwindow.cpp:1236:39: warning: ‘.spc’ directive output may be truncated writing 4 bytes into a region of size between 1 and 4096 [-Wformat-truncation=]
+     snprintf (default_name, PATH_MAX, "%s.spc", def);
+                                       ^~~~~~~~
+In file included from /usr/include/stdio.h:862,
+                 from /usr/include/pango-1.0/pango/pango-utils.h:25,
+                 from /usr/include/pango-1.0/pango/pango.h:46,
+                 from /usr/include/gtk-3.0/gdk/gdktypes.h:35,
+                 from /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:32,
+                 from src/gtk_s9xwindow.cpp:1:
+/usr/include/bits/stdio2.h:64:35: note: ‘__builtin___snprintf_chk’ output between 5 and 4100 bytes into a destination of size 4096
+   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        __bos (__s), __fmt, __va_arg_pack ());
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       src/snes_ntsc.o
+  CXX      ../filter/snes9x_gtk-hq2x.o
+  CXX      src/snes9x_gtk-gtk_splash.o
+  CXX      src/snes9x_gtk-filter_xbrz.o
+  CXX      src/snes9x_gtk-gtk_sound.o
+  CXX      ../filter/snes9x_gtk-xbrz.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_splash.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_splash.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_sound.cpp:4:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_sound.cpp:4:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+src/gtk_sound.cpp: In function ‘void S9xPortSoundInit()’:
+src/gtk_sound.cpp:56:9: warning: unused variable ‘pao_driver’ [-Wunused-variable]
+     int pao_driver = 0;
+         ^~~~~~~~~~
+  CXX      src/snes9x_gtk-gtk_sound_driver_pulse.o
+  CXX      src/snes9x_gtk-gtk_sound_driver_oss.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_sound_driver_pulse.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_sound_driver_pulse.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_sound_driver_oss.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_sound_driver_oss.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      src/snes9x_gtk-gtk_sound_driver_sdl.o
+  CXX      ../snes9x_gtk-fxinst.o
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:100,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_sound_driver_sdl.cpp:1:
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:66:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:67:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:68:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h:69:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:271,
+                 from src/gtk_s9x.h:4,
+                 from src/gtk_sound_driver_sdl.cpp:1:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:74:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved1’ [-Wparentheses]
+   void (*__gtk_reserved1);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:75:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved2’ [-Wparentheses]
+   void (*__gtk_reserved2);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:76:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved3’ [-Wparentheses]
+   void (*__gtk_reserved3);
+        ^
+/usr/include/gtk-3.0/gtk/deprecated/gtkstatusicon.h:77:8: warning: unnecessary parentheses in declaration of ‘__gtk_reserved4’ [-Wparentheses]
+   void (*__gtk_reserved4);
+        ^
+  CXX      ../snes9x_gtk-fxemu.o
+  CXX      ../snes9x_gtk-fxdbg.o
+  CXX      ../snes9x_gtk-c4.o
+  CXX      ../snes9x_gtk-c4emu.o
+  CXX      ../apu/snes9x_gtk-apu.o
+  CXX      ../apu/bapu/dsp/snes9x_gtk-sdsp.o
+  CXX      ../apu/bapu/dsp/snes9x_gtk-SPC_DSP.o
+  CXX      ../apu/bapu/smp/snes9x_gtk-smp.o
+  CXX      ../apu/bapu/smp/snes9x_gtk-smp_state.o
+  CC       ../unzip/unzip.o
+../unzip/unzip.c: In function ‘unzOpenCurrentFile3’:
+../unzip/unzip.c:1220:24: warning: assignment to ‘const long unsigned int *’ from incompatible pointer type ‘const z_crc_t *’ {aka ‘const unsigned int *’} [-Wincompatible-pointer-types]
+         s->pcrc_32_tab = get_crc_table();
+                        ^
+  CC       ../unzip/ioapi.o
+  CC       ../unzip/zip.o
+  CXX      ../shaders/snes9x_gtk-glsl.o
+../unzip/zip.c: In function ‘zipOpenNewFileInZip4’:
+../unzip/zip.c:891:28: warning: assignment to ‘const long unsigned int *’ from incompatible pointer type ‘const z_crc_t *’ {aka ‘const unsigned int *’} [-Wincompatible-pointer-types]
+         zi->ci.pcrc_32_tab = get_crc_table();
+                            ^
+  CXX      ../shaders/snes9x_gtk-shader_helpers.o
+../shaders/glsl.cpp: In member function ‘bool GLSLShader::load_shader(char*)’:
+../shaders/glsl.cpp:354:10: warning: ignoring return value of ‘int chdir(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     chdir(shader_path);
+     ~~~~~^~~~~~~~~~~~~
+../shaders/glsl.cpp:377:17: warning: ignoring return value of ‘char* realpath(const char*, char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         realpath(p->filename, temp);
+         ~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../shaders/glsl.cpp:456:17: warning: ignoring return value of ‘char* realpath(const char*, char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         realpath(l->filename, temp);
+         ~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../shaders/glsl.cpp: In function ‘char* read_file(const char*)’:
+../shaders/glsl.cpp:40:10: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(contents, size, 1, file);
+     ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+../shaders/shader_helpers.cpp: In function ‘bool loadTGA(const char*, STGA&)’:
+../shaders/shader_helpers.cpp:221:10: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&type, sizeof(char), 3, file);
+     ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../shaders/shader_helpers.cpp:223:10: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&info, sizeof(char), 6, file);
+     ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../shaders/shader_helpers.cpp:247:10: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(tempBuf, sizeof(unsigned char), imageSize, file);
+     ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  AR       libjma.a
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CXX      src/snes9x_gtk-gtk_snes9x_ui.o
+  CXXLD    snes9x-gtk
+make[1]: Leaving directory '/run/build/snes9x/gtk'
+Making install in data
+make[1]: Entering directory '/run/build/snes9x/gtk/data'
+make[2]: Entering directory '/run/build/snes9x/gtk/data'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/app/share/snes9x'
+ /usr/bin/install -c -m 644 ../../data/cheats.bml '/app/share/snes9x'
+ /usr/bin/mkdir -p '/app/share/applications'
+ /usr/bin/install -c -m 644 snes9x.desktop '/app/share/applications'
+ /usr/bin/mkdir -p '/app/share/icons/hicolor/128x128/apps'
+ /usr/bin/install -c -m 644 snes9x_128x128.png '/app/share/icons/hicolor/128x128/apps'
+ /usr/bin/mkdir -p '/app/share/icons/hicolor/16x16/apps'
+ /usr/bin/install -c -m 644 snes9x_16x16.png '/app/share/icons/hicolor/16x16/apps'
+ /usr/bin/mkdir -p '/app/share/icons/hicolor/24x24/apps'
+ /usr/bin/install -c -m 644 snes9x_24x24.png '/app/share/icons/hicolor/24x24/apps'
+ /usr/bin/mkdir -p '/app/share/icons/hicolor/256x256/apps'
+ /usr/bin/install -c -m 644 snes9x_256x256.png '/app/share/icons/hicolor/256x256/apps'
+ /usr/bin/mkdir -p '/app/share/icons/hicolor/32x32/apps'
+ /usr/bin/install -c -m 644 snes9x_32x32.png '/app/share/icons/hicolor/32x32/apps'
+ /usr/bin/mkdir -p '/app/share/icons/hicolor/64x64/apps'
+ /usr/bin/install -c -m 644 snes9x_64x64.png '/app/share/icons/hicolor/64x64/apps'
+make  install-data-hook
+make[3]: Entering directory '/run/build/snes9x/gtk/data'
+mv -f /app/share/icons/hicolor/16x16/apps/snes9x_16x16.png \
+      /app/share/icons/hicolor/16x16/apps/snes9x.png
+mv -f /app/share/icons/hicolor/24x24/apps/snes9x_24x24.png \
+      /app/share/icons/hicolor/24x24/apps/snes9x.png
+mv -f /app/share/icons/hicolor/32x32/apps/snes9x_32x32.png \
+      /app/share/icons/hicolor/32x32/apps/snes9x.png
+mv -f /app/share/icons/hicolor/64x64/apps/snes9x_64x64.png \
+      /app/share/icons/hicolor/64x64/apps/snes9x.png
+mv -f /app/share/icons/hicolor/128x128/apps/snes9x_128x128.png \
+      /app/share/icons/hicolor/128x128/apps/snes9x.png
+mv -f /app/share/icons/hicolor/256x256/apps/snes9x_256x256.png \
+      /app/share/icons/hicolor/256x256/apps/snes9x.png
+touch -c /app/share/icons/hicolor
+make[3]: Leaving directory '/run/build/snes9x/gtk/data'
+make[2]: Leaving directory '/run/build/snes9x/gtk/data'
+make[1]: Leaving directory '/run/build/snes9x/gtk/data'
+Making install in po
+make[1]: Entering directory '/run/build/snes9x/gtk/po'
+linguas="es fr_FR ja pt_BR ru sr@latin "; \
+for lang in $linguas; do \
+  dir=/app/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /run/build/snes9x/gtk/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/snes9x-gtk.mo; \
+    echo "installing $lang.gmo as $dir/snes9x-gtk.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/snes9x-gtk.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/snes9x-gtk.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/snes9x-gtk.mo.m; \
+    echo "installing $lang.gmo.m as $dir/snes9x-gtk.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/snes9x-gtk.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/snes9x-gtk.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing es.gmo as /app/share/locale/es/LC_MESSAGES/snes9x-gtk.mo
+installing fr_FR.gmo as /app/share/locale/fr_FR/LC_MESSAGES/snes9x-gtk.mo
+installing ja.gmo as /app/share/locale/ja/LC_MESSAGES/snes9x-gtk.mo
+installing pt_BR.gmo as /app/share/locale/pt_BR/LC_MESSAGES/snes9x-gtk.mo
+installing ru.gmo as /app/share/locale/ru/LC_MESSAGES/snes9x-gtk.mo
+installing sr@latin.gmo as /app/share/locale/sr@latin/LC_MESSAGES/snes9x-gtk.mo
+make[1]: Leaving directory '/run/build/snes9x/gtk/po'
+make[1]: Entering directory '/run/build/snes9x/gtk'
+make[2]: Entering directory '/run/build/snes9x/gtk'
+ /usr/bin/mkdir -p '/app/bin'
+  /usr/bin/install -c snes9x-gtk '/app/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/run/build/snes9x/gtk'
+make[1]: Leaving directory '/run/build/snes9x/gtk'
+compressing debuginfo in: /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/rofiles/rofiles-IXmxlE/files/bin/snes9x-gtk
+processing: /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/rofiles/rofiles-IXmxlE/files/bin/snes9x-gtk
+[29] .debug_aranges compressed -> .zdebug_aranges (7072 => 1875 26.51%)
+[30] .debug_info compressed -> .zdebug_info (7054448 => 3364897 47.70%)
+[31] .debug_abbrev compressed -> .zdebug_abbrev (257985 => 51518 19.97%)
+[32] .debug_line compressed -> .zdebug_line (2155376 => 636198 29.52%)
+[33] .debug_str compressed -> .zdebug_str (750824 => 135771 18.08%)
+[34] .debug_loc compressed -> .zdebug_loc (5277725 => 911028 17.26%)
+[35] .debug_ranges compressed -> .zdebug_ranges (1242576 => 160954 12.95%)
+[38] Updating section string table
+stripping /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/rofiles/rofiles-IXmxlE/files/bin/snes9x-gtk to /home/thomascoldrick/Documents/flatpaks/com.snes9x.Snes9x/.flatpak-builder/rofiles/rofiles-IXmxlE/files/lib/debug/bin/snes9x-gtk.debug
+Committing stage build-snes9x to cache
+Cleaning up
+Removing files/share/man/man3/SDL_mutexV.3
+Removing files/share/man/man3/SDL_mutexP.3
+Removing files/share/man/man3/SDL_keysym.3
+Removing files/share/man/man3/SDL_WasInit.3
+Removing files/share/man/man3/SDL_WarpMouse.3
+Removing files/share/man/man3/SDL_WaitThread.3
+Removing files/share/man/man3/SDL_WaitEvent.3
+Removing files/share/man/man3/SDL_WM_ToggleFullScreen.3
+Removing files/share/man/man3/SDL_WM_SetIcon.3
+Removing files/share/man/man3/SDL_WM_SetCaption.3
+Removing files/share/man/man3/SDL_WM_IconifyWindow.3
+Removing files/share/man/man3/SDL_WM_GrabInput.3
+Removing files/share/man/man3/SDL_WM_GetCaption.3
+Removing files/share/man/man3/SDL_VideoModeOK.3
+Removing files/share/man/man3/SDL_VideoInfo.3
+Removing files/share/man/man3/SDL_VideoDriverName.3
+Removing files/share/man/man3/SDL_UserEvent.3
+Removing files/share/man/man3/SDL_UpdateRects.3
+Removing files/share/man/man3/SDL_UpdateRect.3
+Removing files/share/man/man3/SDL_UnlockYUVOverlay.3
+Removing files/share/man/man3/SDL_UnlockSurface.3
+Removing files/share/man/man3/SDL_UnlockAudio.3
+Removing files/share/man/man3/SDL_ThreadID.3
+Removing files/share/man/man3/SDL_SysWMEvent.3
+Removing files/share/man/man3/SDL_Surface.3
+Removing files/share/man/man3/SDL_ShowCursor.3
+Removing files/share/man/man3/SDL_SetVideoMode.3
+Removing files/share/man/man3/SDL_SetTimer.3
+Removing files/share/man/man3/SDL_SetPalette.3
+Removing files/share/man/man3/SDL_SetModState.3
+Removing files/share/man/man3/SDL_SetGammaRamp.3
+Removing files/share/man/man3/SDL_SetGamma.3
+Removing files/share/man/man3/SDL_SetEventFilter.3
+Removing files/share/man/man3/SDL_SetCursor.3
+Removing files/share/man/man3/SDL_SetColors.3
+Removing files/share/man/man3/SDL_SetColorKey.3
+Removing files/share/man/man3/SDL_SetClipRect.3
+Removing files/share/man/man3/SDL_SetAlpha.3
+Removing files/share/man/man3/SDL_SemWaitTimeout.3
+Removing files/share/man/man3/SDL_SemWait.3
+Removing files/share/man/man3/SDL_SemValue.3
+Removing files/share/man/man3/SDL_SemTryWait.3
+Removing files/share/man/man3/SDL_SemPost.3
+Removing files/share/man/man3/SDL_SaveBMP.3
+Removing files/share/man/man3/SDL_ResizeEvent.3
+Removing files/share/man/man3/SDL_RemoveTimer.3
+Removing files/share/man/man3/SDL_Rect.3
+Removing files/share/man/man3/SDL_RWFromFile.3
+Removing files/share/man/man3/SDL_QuitSubSystem.3
+Removing files/share/man/man3/SDL_QuitEvent.3
+Removing files/share/man/man3/SDL_Quit.3
+Removing files/share/man/man3/SDL_PushEvent.3
+Removing files/share/man/man3/SDL_PumpEvents.3
+Removing files/share/man/man3/SDL_PollEvent.3
+Removing files/share/man/man3/SDL_PixelFormat.3
+Removing files/share/man/man3/SDL_PeepEvents.3
+Removing files/share/man/man3/SDL_PauseAudio.3
+Removing files/share/man/man3/SDL_Palette.3
+Removing files/share/man/man3/SDL_Overlay.3
+Removing files/share/man/man3/SDL_OpenAudio.3
+Removing files/share/man/man3/SDL_NumJoysticks.3
+Removing files/share/man/man3/SDL_MouseMotionEvent.3
+Removing files/share/man/man3/SDL_MouseButtonEvent.3
+Removing files/share/man/man3/SDL_MixAudio.3
+Removing files/share/man/man3/SDL_MapRGBA.3
+Removing files/share/man/man3/SDL_MapRGB.3
+Removing files/share/man/man3/SDL_LockYUVOverlay.3
+Removing files/share/man/man3/SDL_LockSurface.3
+Removing files/share/man/man3/SDL_LockAudio.3
+Removing files/share/man/man3/SDL_LoadWAV.3
+Removing files/share/man/man3/SDL_LoadBMP.3
+Removing files/share/man/man3/SDL_ListModes.3
+Removing files/share/man/man3/SDL_KillThread.3
+Removing files/share/man/man3/SDL_KeyboardEvent.3
+Removing files/share/man/man3/SDL_JoystickUpdate.3
+Removing files/share/man/man3/SDL_JoystickOpened.3
+Removing files/share/man/man3/SDL_JoystickOpen.3
+Removing files/share/man/man3/SDL_JoystickNumHats.3
+Removing files/share/man/man3/SDL_JoystickNumButtons.3
+Removing files/share/man/man3/SDL_JoystickNumBalls.3
+Removing files/share/man/man3/SDL_JoystickNumAxes.3
+Removing files/share/man/man3/SDL_JoystickName.3
+Removing files/share/man/man3/SDL_JoystickIndex.3
+Removing files/share/man/man3/SDL_JoystickGetHat.3
+Removing files/share/man/man3/SDL_JoystickGetButton.3
+Removing files/share/man/man3/SDL_JoystickGetBall.3
+Removing files/share/man/man3/SDL_JoystickGetAxis.3
+Removing files/share/man/man3/SDL_JoystickEventState.3
+Removing files/share/man/man3/SDL_JoystickClose.3
+Removing files/share/man/man3/SDL_JoyHatEvent.3
+Removing files/share/man/man3/SDL_JoyButtonEvent.3
+Removing files/share/man/man3/SDL_JoyBallEvent.3
+Removing files/share/man/man3/SDL_JoyAxisEvent.3
+Removing files/share/man/man3/SDL_InitSubSystem.3
+Removing files/share/man/man3/SDL_Init.3
+Removing files/share/man/man3/SDL_GetVideoSurface.3
+Removing files/share/man/man3/SDL_GetVideoInfo.3
+Removing files/share/man/man3/SDL_GetTicks.3
+Removing files/share/man/man3/SDL_GetThreadID.3
+Removing files/share/man/man3/SDL_GetRelativeMouseState.3
+Removing files/share/man/man3/SDL_GetRGBA.3
+Removing files/share/man/man3/SDL_GetRGB.3
+Removing files/share/man/man3/SDL_GetMouseState.3
+Removing files/share/man/man3/SDL_GetModState.3
+Removing files/share/man/man3/SDL_GetKeyState.3
+Removing files/share/man/man3/SDL_GetKeyName.3
+Removing files/share/man/man3/SDL_GetGammaRamp.3
+Removing files/share/man/man3/SDL_GetGamma.3
+Removing files/share/man/man3/SDL_GetEventFilter.3
+Removing files/share/man/man3/SDL_GetError.3
+Removing files/share/man/man3/SDL_GetCursor.3
+Removing files/share/man/man3/SDL_GetClipRect.3
+Removing files/share/man/man3/SDL_GetAudioStatus.3
+Removing files/share/man/man3/SDL_GetAppState.3
+Removing files/share/man/man3/SDL_GLattr.3
+Removing files/share/man/man3/SDL_GL_SwapBuffers.3
+Removing files/share/man/man3/SDL_GL_SetAttribute.3
+Removing files/share/man/man3/SDL_GL_LoadLibrary.3
+Removing files/share/man/man3/SDL_GL_GetProcAddress.3
+Removing files/share/man/man3/SDL_GL_GetAttribute.3
+Removing files/share/man/man3/SDL_FreeYUVOverlay.3
+Removing files/share/man/man3/SDL_FreeWAV.3
+Removing files/share/man/man3/SDL_FreeSurface.3
+Removing files/share/man/man3/SDL_FreeCursor.3
+Removing files/share/man/man3/SDL_Flip.3
+Removing files/share/man/man3/SDL_FillRect.3
+Removing files/share/man/man3/SDL_ExposeEvent.3
+Removing files/share/man/man3/SDL_EventState.3
+Removing files/share/man/man3/SDL_Event.3
+Removing files/share/man/man3/SDL_EnableUNICODE.3
+Removing files/share/man/man3/SDL_EnableKeyRepeat.3
+Removing files/share/man/man3/SDL_DisplayYUVOverlay.3
+Removing files/share/man/man3/SDL_DisplayFormatAlpha.3
+Removing files/share/man/man3/SDL_DisplayFormat.3
+Removing files/share/man/man3/SDL_DestroySemaphore.3
+Removing files/share/man/man3/SDL_DestroyMutex.3
+Removing files/share/man/man3/SDL_DestroyCond.3
+Removing files/share/man/man3/SDL_Delay.3
+Removing files/share/man/man3/SDL_CreateYUVOverlay.3
+Removing files/share/man/man3/SDL_CreateThread.3
+Removing files/share/man/man3/SDL_CreateSemaphore.3
+Removing files/share/man/man3/SDL_CreateRGBSurfaceFrom.3
+Removing files/share/man/man3/SDL_CreateRGBSurface.3
+Removing files/share/man/man3/SDL_CreateMutex.3
+Removing files/share/man/man3/SDL_CreateCursor.3
+Removing files/share/man/man3/SDL_CreateCond.3
+Removing files/share/man/man3/SDL_ConvertSurface.3
+Removing files/share/man/man3/SDL_ConvertAudio.3
+Removing files/share/man/man3/SDL_CondWaitTimeout.3
+Removing files/share/man/man3/SDL_CondWait.3
+Removing files/share/man/man3/SDL_CondSignal.3
+Removing files/share/man/man3/SDL_CondBroadcast.3
+Removing files/share/man/man3/SDL_Color.3
+Removing files/share/man/man3/SDL_CloseAudio.3
+Removing files/share/man/man3/SDL_CDtrack.3
+Removing files/share/man/man3/SDL_CDStop.3
+Removing files/share/man/man3/SDL_CDStatus.3
+Removing files/share/man/man3/SDL_CDResume.3
+Removing files/share/man/man3/SDL_CDPlayTracks.3
+Removing files/share/man/man3/SDL_CDPlay.3
+Removing files/share/man/man3/SDL_CDPause.3
+Removing files/share/man/man3/SDL_CDOpen.3
+Removing files/share/man/man3/SDL_CDNumDrives.3
+Removing files/share/man/man3/SDL_CDName.3
+Removing files/share/man/man3/SDL_CDEject.3
+Removing files/share/man/man3/SDL_CDClose.3
+Removing files/share/man/man3/SDL_CD.3
+Removing files/share/man/man3/SDL_BuildAudioCVT.3
+Removing files/share/man/man3/SDL_BlitSurface.3
+Removing files/share/man/man3/SDL_AudioSpec.3
+Removing files/share/man/man3/SDL_AudioCVT.3
+Removing files/share/man/man3/SDL_AddTimer.3
+Removing files/share/man/man3/SDL_ActiveEvent.3
+Removing files/share/man/man3/SDLKey.3
+Removing files/share/man/man3
+Removing files/share/man
+Removing files/share/aclocal/sdl.m4
+Removing files/share/aclocal
+Removing files/lib/pkgconfig/sdl.pc
+Removing files/lib/pkgconfig
+Removing files/lib/libSDLmain.la
+Removing files/lib/libSDLmain.a
+Removing files/lib/libSDL.la
+Removing files/include/SDL/close_code.h
+Removing files/include/SDL/begin_code.h
+Removing files/include/SDL/SDL_video.h
+Removing files/include/SDL/SDL_version.h
+Removing files/include/SDL/SDL_types.h
+Removing files/include/SDL/SDL_timer.h
+Removing files/include/SDL/SDL_thread.h
+Removing files/include/SDL/SDL_syswm.h
+Removing files/include/SDL/SDL_stdinc.h
+Removing files/include/SDL/SDL_rwops.h
+Removing files/include/SDL/SDL_quit.h
+Removing files/include/SDL/SDL_platform.h
+Removing files/include/SDL/SDL_opengl.h
+Removing files/include/SDL/SDL_name.h
+Removing files/include/SDL/SDL_mutex.h
+Removing files/include/SDL/SDL_mouse.h
+Removing files/include/SDL/SDL_main.h
+Removing files/include/SDL/SDL_loadso.h
+Removing files/include/SDL/SDL_keysym.h
+Removing files/include/SDL/SDL_keyboard.h
+Removing files/include/SDL/SDL_joystick.h
+Removing files/include/SDL/SDL_getenv.h
+Removing files/include/SDL/SDL_events.h
+Removing files/include/SDL/SDL_error.h
+Removing files/include/SDL/SDL_endian.h
+Removing files/include/SDL/SDL_cpuinfo.h
+Removing files/include/SDL/SDL_config.h
+Removing files/include/SDL/SDL_cdrom.h
+Removing files/include/SDL/SDL_byteorder.h
+Removing files/include/SDL/SDL_audio.h
+Removing files/include/SDL/SDL_active.h
+Removing files/include/SDL/SDL.h
+Removing files/include/SDL
+Removing files/include
+Removing files/bin/sdl-config
+Removing files/bin
+Renaming snes9x.desktop to com.snes9x.Snes9x.desktop
+Renaming icon hicolor/64x64/apps/snes9x.png to hicolor/64x64/apps/com.snes9x.Snes9x.png
+Renaming icon hicolor/16x16/apps/snes9x.png to hicolor/16x16/apps/com.snes9x.Snes9x.png
+Renaming icon hicolor/256x256/apps/snes9x.png to hicolor/256x256/apps/com.snes9x.Snes9x.png
+Renaming icon hicolor/32x32/apps/snes9x.png to hicolor/32x32/apps/com.snes9x.Snes9x.png
+Renaming icon hicolor/24x24/apps/snes9x.png to hicolor/24x24/apps/com.snes9x.Snes9x.png
+Renaming icon hicolor/128x128/apps/snes9x.png to hicolor/128x128/apps/com.snes9x.Snes9x.png
+Rewriting contents of com.snes9x.Snes9x.desktop
+Running appstream-compose
+Processing application com.snes9x.Snes9x
+Saving icon /app/share/app-info/icons/flatpak/64x64/com.snes9x.Snes9x.png
+Saving icon /app/share/app-info/icons/flatpak/128x128/com.snes9x.Snes9x.png
+Saving AppStream /app/share/app-info/xmls/com.snes9x.Snes9x.xml.gz
+Done!
+Committing stage cleanup to cache
+Finishing app
+Exporting share/applications/com.snes9x.Snes9x.desktop
+Exporting share/icons/hicolor/64x64/apps/com.snes9x.Snes9x.png
+Exporting share/icons/hicolor/16x16/apps/com.snes9x.Snes9x.png
+Exporting share/icons/hicolor/256x256/apps/com.snes9x.Snes9x.png
+Exporting share/icons/hicolor/32x32/apps/com.snes9x.Snes9x.png
+Exporting share/icons/hicolor/24x24/apps/com.snes9x.Snes9x.png
+Exporting share/icons/hicolor/128x128/apps/com.snes9x.Snes9x.png
+Please review the exported files and the metadata
+Committing stage finish to cache
+Exporting com.snes9x.Snes9x to repo
+Commit: 024dd8f429468c0143b3b0d071eee8e737771bd1b05c824847105d4c6e0e8286
+Metadata Total: 115
+Metadata Written: 5
+Content Total: 32
+Content Written: 3
+Content Bytes Written: 4527632 (4.5 MB)
+Exporting com.snes9x.Snes9x.Locale to repo
+Commit: c0f5cf1e14810183cdb54d86626e6c429daf51deb2adba57d19bb7a61fa7f933
+Metadata Total: 53
+Metadata Written: 1
+Content Total: 7
+Content Written: 0
+Content Bytes Written: 0 (0 bytes)
+Exporting com.snes9x.Snes9x.Debug to repo
+Commit: 70214fa064f556eb63cc8aeedce209a7491c4b4c8a5064919292f159db74c2d3
+Metadata Total: 109
+Metadata Written: 5
+Content Total: 392
+Content Written: 2
+Content Bytes Written: 6438808 (6.4 MB)
+Pruning cache

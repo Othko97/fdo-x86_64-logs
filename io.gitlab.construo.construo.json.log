@@ -1,0 +1,255 @@
+Emptying app dir 'build'
+Downloading sources
+Fetching full git repo https://gitlab.com/construo/construo.git
+Initializing build dir
+Committing stage init to cache
+Starting build of io.gitlab.construo.construo
+========================================================================
+Building module construo in /home/thomascoldrick/Documents/flatpaks/io.gitlab.construo.construo/.flatpak-builder/build/construo-1
+========================================================================
+Note: checking out '5092c7e782b04d30b68fae09bee0f2ea82d5e066'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 5092c7e... Fixed copy&paste issue: Pingus -> Construo
+-- The C compiler identification is GNU 8.2.0
+-- The CXX compiler identification is GNU 8.2.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so  
+-- Could NOT find GLUT (missing: GLUT_glut_LIBRARY GLUT_INCLUDE_DIR) 
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found Git: /usr/bin/git (found version "2.18.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /run/build/construo
+[1/53] Building CXX object CMakeFiles/libconstruo.dir/src/colors.cpp.o
+[2/53] Building CXX object CMakeFiles/libconstruo.dir/src/construo.cpp.o
+[3/53] Building CXX object CMakeFiles/libconstruo.dir/src/config.cpp.o
+[4/53] Building CXX object CMakeFiles/libconstruo.dir/src/bounding_box.cpp.o
+[5/53] Building CXX object CMakeFiles/libconstruo.dir/src/command_line.cpp.o
+[6/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_component.cpp.o
+[7/53] Building CXX object CMakeFiles/libconstruo.dir/src/controller.cpp.o
+[8/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_buttons.cpp.o
+[9/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_child_manager.cpp.o
+[10/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_directory.cpp.o
+[11/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_file_button.cpp.o
+[12/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_directory_button.cpp.o
+[13/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_label.cpp.o
+[14/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_new_file_button.cpp.o
+[15/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_manager.cpp.o
+[16/53] Building CXX object CMakeFiles/libconstruo.dir/src/keep_alive_mgr.cpp.o
+[17/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_window.cpp.o
+[18/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_file_manager.cpp.o
+[19/53] Building CXX object CMakeFiles/libconstruo.dir/src/input_context.cpp.o
+[20/53] Building CXX object CMakeFiles/libconstruo.dir/src/lisp_reader.cpp.o
+[21/53] Building CXX object CMakeFiles/libconstruo.dir/src/lisp_writer.cpp.o
+[22/53] Building CXX object CMakeFiles/libconstruo.dir/src/load_gui_manager.cpp.o
+[23/53] Building CXX object CMakeFiles/libconstruo.dir/src/particle.cpp.o
+[24/53] Building CXX object CMakeFiles/libconstruo.dir/src/particle_factory.cpp.o
+[25/53] Building CXX object CMakeFiles/libconstruo.dir/src/path_manager.cpp.o
+[26/53] Building CXX object CMakeFiles/libconstruo.dir/src/screen_manager.cpp.o
+[27/53] Building CXX object CMakeFiles/libconstruo.dir/src/rect_collider.cpp.o
+[28/53] Building CXX object CMakeFiles/libconstruo.dir/src/root_graphic_context.cpp.o
+[29/53] Building CXX object CMakeFiles/libconstruo.dir/src/settings.cpp.o
+[30/53] Building CXX object CMakeFiles/libconstruo.dir/src/save_gui_manager.cpp.o
+[31/53] Building CXX object CMakeFiles/libconstruo.dir/src/string_utils.cpp.o
+[32/53] Building CXX object CMakeFiles/libconstruo.dir/src/spring.cpp.o
+[33/53] Building CXX object CMakeFiles/libconstruo.dir/src/selection.cpp.o
+[34/53] Building CXX object CMakeFiles/libconstruo.dir/src/vector.cpp.o
+[35/53] Building CXX object CMakeFiles/libconstruo.dir/src/world_button.cpp.o
+[36/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_collider_tool.cpp.o
+[37/53] Building CXX object CMakeFiles/libconstruo.dir/src/world.cpp.o
+[38/53] Building CXX object CMakeFiles/libconstruo.dir/src/world_gui_manager.cpp.o
+[39/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_component.cpp.o
+[40/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_tool.cpp.o
+[41/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_insert_tool.cpp.o
+[42/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_zoom_tool.cpp.o
+[43/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_select_tool.cpp.o
+[44/53] Building CXX object CMakeFiles/libconstruo.dir/src/unix_system.cpp.o
+[45/53] Building CXX object CMakeFiles/libconstruo.dir/src/zoom_graphic_context.cpp.o
+[46/53] Linking CXX static library libconstruo.a
+[47/53] Building C object CMakeFiles/lispreader.dir/external/lispreader-0.5/pools.c.o
+[48/53] Building C object CMakeFiles/lispreader.dir/external/lispreader-0.5/allocator.c.o
+[49/53] Building C object CMakeFiles/lispreader.dir/external/lispreader-0.5/lispreader.c.o
+[50/53] Linking C static library liblispreader.a
+[51/53] Building CXX object CMakeFiles/construo.x11.dir/src/construo_main.cpp.o
+[52/53] Building CXX object CMakeFiles/construo.x11.dir/src/x11_display.cpp.o
+[53/53] Linking CXX executable construo.x11
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /app/bin/construo.x11
+-- Installing: /app/share/applications/construo.x11.desktop
+-- Installing: /app/share/construo/examples
+-- Installing: /app/share/construo/examples/explosion.construo
+-- Installing: /app/share/construo/examples/ball.construo
+-- Installing: /app/share/construo/examples/galactica.construo
+-- Installing: /app/share/construo/examples/jesus.construo
+-- Installing: /app/share/construo/examples/rotatium.construo
+-- Installing: /app/share/construo/examples/joe.construo
+-- Installing: /app/share/construo/examples/scorpion.construo
+-- Installing: /app/share/construo/examples/penguin2.construo
+-- Installing: /app/share/construo/examples/borg.construo
+-- Installing: /app/share/construo/examples/penguin.construo
+-- Installing: /app/share/construo/examples/.cvsignore
+-- Installing: /app/share/construo/examples/zeppelin.construo
+-- Installing: /app/share/construo/examples/kranfree.construo
+-- Installing: /app/share/construo/examples/stretch.construo
+-- Installing: /app/share/construo/examples/kran2.construo
+-- Installing: /app/share/construo/examples/mrwooble.construo
+-- Installing: /app/share/construo/examples/bridge3.construo
+-- Installing: /app/share/construo/examples/crashtest.construo
+-- Installing: /app/share/construo/examples/hangon.construo
+-- Installing: /app/share/construo/examples/bridge2.construo
+-- Installing: /app/share/construo/examples/kamikaze.construo
+-- Installing: /app/share/construo/examples/pendulum.construo
+-- Installing: /app/share/construo/examples/planelanding.construo
+-- Installing: /app/share/construo/examples/bigthing.construo
+-- Installing: /app/share/construo/examples/candle.construo
+-- Installing: /app/share/construo/examples/bug.construo
+-- Installing: /app/share/construo/examples/temple.construo
+-- Installing: /app/share/construo/examples/balance.construo
+-- Installing: /app/share/construo/examples/thingo.construo
+-- Installing: /app/share/construo/examples/moonlander.construo
+-- Installing: /app/share/construo/examples/bridgio.construo
+-- Installing: /app/share/construo/examples/bridge.construo
+-- Installing: /app/share/construo/examples/rocket.construo
+-- Installing: /app/share/construo/examples/basketball.construo
+-- Installing: /app/share/construo/examples/complexus.construo
+-- Installing: /app/share/construo/examples/test.construo
+-- Installing: /app/share/construo/examples/pig.construo
+-- Installing: /app/share/construo/examples/rocketlanding.construo
+-- Installing: /app/share/construo/examples/house.construo
+-- Installing: /app/share/construo/examples/dodge.construo
+-- Installing: /app/share/construo/examples/waaagggee45.construo
+-- Installing: /app/share/construo/examples/bigtower.construo
+-- Installing: /app/share/construo/examples/needle.construo
+-- Installing: /app/share/construo/examples/choh
+-- Installing: /app/share/construo/examples/choh/quicksave3.construo
+-- Installing: /app/share/construo/examples/choh/quicksave2.construo
+-- Installing: /app/share/construo/examples/choh/README
+-- Installing: /app/share/construo/examples/choh/quicksave4.construo
+-- Installing: /app/share/construo/examples/choh/quicksave0.construo
+-- Installing: /app/share/construo/examples/choh/quicksave7.construo
+-- Installing: /app/share/construo/examples/choh/quicksave1.construo
+-- Installing: /app/share/construo/examples/choh/quicksave8.construo
+-- Installing: /app/share/construo/examples/choh/quicksave5.construo
+-- Installing: /app/share/construo/examples/choh/quicksave6.construo
+-- Installing: /app/share/construo/examples/choh/quicksave9.construo
+-- Installing: /app/share/construo/examples/capsule.construo
+-- Installing: /app/share/construo/examples/shangon.construo
+-- Installing: /app/share/construo/examples/tetherball.construo
+-- Installing: /app/share/construo/examples/plane.construo
+-- Installing: /app/share/construo/examples/bridge4.construo
+-- Installing: /app/share/construo/examples/ziege.construo
+-- Installing: /app/share/construo/examples/pendel45.construo
+-- Installing: /app/share/construo/examples/wheels.construo
+-- Installing: /app/share/construo/examples/broken
+-- Installing: /app/share/construo/examples/broken/castle.construo
+-- Installing: /app/share/construo/examples/broken/swing.construo
+-- Installing: /app/share/construo/examples/broken/pendel.construo
+-- Installing: /app/share/construo/examples/colido.construo
+-- Installing: /app/share/construo/examples/monster.construo
+-- Installing: /app/share/construo/examples/thingo2.construo
+-- Installing: /app/share/construo/examples/dancing.construo
+-- Installing: /app/share/construo/examples/jesus2.construo
+-- Installing: /app/share/construo/examples/complex.construo
+-- Installing: /app/share/construo/examples/tower.construo
+-- Installing: /app/share/construo/examples/wooble.construo
+-- Installing: /app/share/construo/examples/stabilo.construo
+-- Installing: /app/share/construo/examples/bridge6-1.construo
+-- Installing: /app/share/construo/examples/choh2
+-- Installing: /app/share/construo/examples/choh2/quicksave3.construo
+-- Installing: /app/share/construo/examples/choh2/quicksave2.construo
+-- Installing: /app/share/construo/examples/choh2/README
+-- Installing: /app/share/construo/examples/choh2/quicksave4.construo
+-- Installing: /app/share/construo/examples/choh2/quicksave7.construo
+-- Installing: /app/share/construo/examples/choh2/quicksave1.construo
+-- Installing: /app/share/construo/examples/choh2/quicksave8.construo
+-- Installing: /app/share/construo/examples/choh2/quicksave5.construo
+-- Installing: /app/share/construo/examples/choh2/quicksave6.construo
+-- Installing: /app/share/construo/examples/choh2/quicksave9.construo
+-- Installing: /app/share/construo/examples/bridge5.construo
+-- Installing: /app/share/construo/examples/bridg4.construo
+-- Installing: /app/share/construo/examples/landingv2.construo
+-- Installing: /app/share/construo/examples/krahn.construo
+-- Installing: /app/share/construo/examples/logo.construo
+-- Installing: /app/share/construo/examples/bridge6.construo
+-- Installing: /app/share/construo/examples/simple.construo
+-- Installing: /app/share/icons/hicolor/scalable/apps/construo.svg
+-- Installing: /app/share/metainfo/construo.appdata.xml
+compressing debuginfo in: /home/thomascoldrick/Documents/flatpaks/io.gitlab.construo.construo/.flatpak-builder/rofiles/rofiles-8YzbwG/files/bin/construo.x11
+processing: /home/thomascoldrick/Documents/flatpaks/io.gitlab.construo.construo/.flatpak-builder/rofiles/rofiles-8YzbwG/files/bin/construo.x11
+[29] .debug_aranges compressed -> .zdebug_aranges (8448 => 1536 18.18%)
+[30] .debug_info compressed -> .zdebug_info (3177443 => 1471524 46.31%)
+[31] .debug_abbrev compressed -> .zdebug_abbrev (133509 => 26843 20.11%)
+[32] .debug_line compressed -> .zdebug_line (333650 => 87141 26.12%)
+[33] .debug_str compressed -> .zdebug_str (451948 => 62837 13.90%)
+[34] .debug_loc compressed -> .zdebug_loc (2170586 => 245139 11.29%)
+[35] .debug_ranges compressed -> .zdebug_ranges (297744 => 37758 12.68%)
+[38] Updating section string table
+stripping /home/thomascoldrick/Documents/flatpaks/io.gitlab.construo.construo/.flatpak-builder/rofiles/rofiles-8YzbwG/files/bin/construo.x11 to /home/thomascoldrick/Documents/flatpaks/io.gitlab.construo.construo/.flatpak-builder/rofiles/rofiles-8YzbwG/files/lib/debug/bin/construo.x11.debug
+Committing stage build-construo to cache
+Cleaning up
+Renaming construo.appdata.xml to share/appdata/io.gitlab.construo.construo.appdata.xml
+Renaming construo.x11.desktop to io.gitlab.construo.construo.desktop
+Renaming icon hicolor/scalable/apps/construo.svg to hicolor/scalable/apps/io.gitlab.construo.construo.svg
+Rewriting contents of io.gitlab.construo.construo.desktop
+Running appstream-compose
+Processing application io.gitlab.construo.construo
+Saving icon /app/share/app-info/icons/flatpak/64x64/io.gitlab.construo.construo.png
+Saving icon /app/share/app-info/icons/flatpak/128x128/io.gitlab.construo.construo.png
+Saving AppStream /app/share/app-info/xmls/io.gitlab.construo.construo.xml.gz
+Done!
+Committing stage cleanup to cache
+Finishing app
+Exporting share/applications/io.gitlab.construo.construo.desktop
+Exporting share/icons/hicolor/scalable/apps/io.gitlab.construo.construo.svg
+Using construo.x11 as command
+Please review the exported files and the metadata
+Committing stage finish to cache
+Exporting io.gitlab.construo.construo to repo
+Commit: 9d54588d8e269c08277b980a6fe0cd786ed31c2a6f1651291ee499b0331dde1b
+Metadata Total: 63
+Metadata Written: 4
+Content Total: 103
+Content Written: 2
+Content Bytes Written: 342073 (342.1 kB)
+Exporting io.gitlab.construo.construo.Debug to repo
+Commit: 03cd75e45326b4f247e79a9732c7ac4925f57641038e28183a0713be739ac696
+Metadata Total: 19
+Metadata Written: 4
+Content Total: 115
+Content Written: 1
+Content Bytes Written: 2009792 (2.0 MB)
+Pruning cache

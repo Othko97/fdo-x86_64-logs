@@ -1,0 +1,20 @@
+Downloading sources
+Fetching git repo https://github.com/jamovi/jamovi.git, ref refs/tags/v0.9.1.9
+Fetching git repo https://github.com/jamovi/jamovi-compiler.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi-readstat.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi.git, ref refs/tags/v0.9.1.9
+Fetching git repo https://github.com/jamovi/jamovi-compiler.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi-readstat.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi.git, ref refs/tags/v0.9.1.9
+Fetching git repo https://github.com/jamovi/jamovi-compiler.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi-readstat.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi-compiler.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi.git, ref refs/tags/v0.9.1.9
+Fetching git repo https://github.com/jamovi/jamovi-compiler.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi-readstat.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi.git, ref refs/tags/v0.9.1.9
+Fetching git repo https://github.com/jamovi/jamovi-compiler.git, ref refs/heads/master
+Fetching git repo https://github.com/jamovi/jamovi-readstat.git, ref refs/heads/master
+Initializing build dir
+error: Requested extension org.freedesktop.Sdk.Extension.gfortran-62 not installed
+Error: Child process exited with code 1

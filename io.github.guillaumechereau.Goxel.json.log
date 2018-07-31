@@ -1,0 +1,2230 @@
+Emptying app dir 'build'
+Downloading sources
+Initializing build dir
+Committing stage init to cache
+Starting build of io.github.guillaumechereau.Goxel
+========================================================================
+Building module scons in /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/build/scons-1
+========================================================================
+Running: python setup.py install --prefix=/app
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/SCons
+copying engine/SCons/Errors.py -> build/lib/SCons
+copying engine/SCons/Job.py -> build/lib/SCons
+copying engine/SCons/Conftest.py -> build/lib/SCons
+copying engine/SCons/Memoize.py -> build/lib/SCons
+copying engine/SCons/PathList.py -> build/lib/SCons
+copying engine/SCons/Sig.py -> build/lib/SCons
+copying engine/SCons/dblite.py -> build/lib/SCons
+copying engine/SCons/exitfuncs.py -> build/lib/SCons
+copying engine/SCons/Executor.py -> build/lib/SCons
+copying engine/SCons/Warnings.py -> build/lib/SCons
+copying engine/SCons/Util.py -> build/lib/SCons
+copying engine/SCons/Action.py -> build/lib/SCons
+copying engine/SCons/Builder.py -> build/lib/SCons
+copying engine/SCons/Debug.py -> build/lib/SCons
+copying engine/SCons/CacheDir.py -> build/lib/SCons
+copying engine/SCons/cpp.py -> build/lib/SCons
+copying engine/SCons/SConf.py -> build/lib/SCons
+copying engine/SCons/Taskmaster.py -> build/lib/SCons
+copying engine/SCons/__init__.py -> build/lib/SCons
+copying engine/SCons/Subst.py -> build/lib/SCons
+copying engine/SCons/SConsign.py -> build/lib/SCons
+copying engine/SCons/Environment.py -> build/lib/SCons
+copying engine/SCons/Defaults.py -> build/lib/SCons
+creating build/lib/SCons/compat
+copying engine/SCons/compat/_scons_dbm.py -> build/lib/SCons/compat
+copying engine/SCons/compat/__init__.py -> build/lib/SCons/compat
+creating build/lib/SCons/Node
+copying engine/SCons/Node/Python.py -> build/lib/SCons/Node
+copying engine/SCons/Node/FS.py -> build/lib/SCons/Node
+copying engine/SCons/Node/__init__.py -> build/lib/SCons/Node
+copying engine/SCons/Node/Alias.py -> build/lib/SCons/Node
+creating build/lib/SCons/Options
+copying engine/SCons/Options/PackageOption.py -> build/lib/SCons/Options
+copying engine/SCons/Options/BoolOption.py -> build/lib/SCons/Options
+copying engine/SCons/Options/ListOption.py -> build/lib/SCons/Options
+copying engine/SCons/Options/PathOption.py -> build/lib/SCons/Options
+copying engine/SCons/Options/EnumOption.py -> build/lib/SCons/Options
+copying engine/SCons/Options/__init__.py -> build/lib/SCons/Options
+creating build/lib/SCons/Platform
+copying engine/SCons/Platform/cygwin.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/posix.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/irix.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/sunos.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/hpux.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/darwin.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/os2.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/__init__.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/aix.py -> build/lib/SCons/Platform
+copying engine/SCons/Platform/win32.py -> build/lib/SCons/Platform
+creating build/lib/SCons/Scanner
+copying engine/SCons/Scanner/C.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/Fortran.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/LaTeX.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/IDL.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/Prog.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/SWIG.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/D.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/RC.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/__init__.py -> build/lib/SCons/Scanner
+copying engine/SCons/Scanner/Dir.py -> build/lib/SCons/Scanner
+creating build/lib/SCons/Script
+copying engine/SCons/Script/Main.py -> build/lib/SCons/Script
+copying engine/SCons/Script/Interactive.py -> build/lib/SCons/Script
+copying engine/SCons/Script/SConsOptions.py -> build/lib/SCons/Script
+copying engine/SCons/Script/SConscript.py -> build/lib/SCons/Script
+copying engine/SCons/Script/__init__.py -> build/lib/SCons/Script
+creating build/lib/SCons/Tool
+copying engine/SCons/Tool/tlib.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/qt.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/RCS.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/m4.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/link.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/gettext.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/cc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/icl.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/FortranCommon.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/hplink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/textfile.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/hpcc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/install.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/gs.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/aixlink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/rpm.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/zip.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/pdflatex.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/mslink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/msgmerge.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sgic++.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/yacc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/f03.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/cyglink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/g++.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/SCCS.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/msginit.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/Subversion.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/f90.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/ipkg.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/dvi.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/tar.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sunc++.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/mwld.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/javac.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/wix.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/gas.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/g77.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/ldc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sgilink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/Perforce.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/rpcgen.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/gfortran.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/gdc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/dmd.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/mwcc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/msvc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/masm.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/latex.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/tex.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sunf77.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/applelink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/nasm.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/midl.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/aixc++.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sunf90.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/gnulink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sgiar.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/gcc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/mslib.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/mingw.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/filesystem.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/ifl.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/f77.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/linkloc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/ar.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/dvipdf.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/BitKeeper.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/cvf.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/icc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/dvips.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/rpmutils.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/386asm.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/as.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/f95.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/default.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/hpc++.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/swig.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/ifort.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/aixcc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/intelc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/xgettext.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/jar.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sgicc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/DCommon.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/JavaCommon.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/GettextCommon.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/lex.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/CVS.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/bcc32.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/javah.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sunar.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/PharLapCommon.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/aixf77.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/msvs.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/suncc.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/pdftex.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/fortran.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/msgfmt.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/c++.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/ilink32.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sunlink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/__init__.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/sunf95.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/rmic.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/pdf.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/ilink.py -> build/lib/SCons/Tool
+copying engine/SCons/Tool/mssdk.py -> build/lib/SCons/Tool
+creating build/lib/SCons/Tool/docbook
+copying engine/SCons/Tool/docbook/__init__.py -> build/lib/SCons/Tool/docbook
+creating build/lib/SCons/Tool/MSCommon
+copying engine/SCons/Tool/MSCommon/sdk.py -> build/lib/SCons/Tool/MSCommon
+copying engine/SCons/Tool/MSCommon/common.py -> build/lib/SCons/Tool/MSCommon
+copying engine/SCons/Tool/MSCommon/arch.py -> build/lib/SCons/Tool/MSCommon
+copying engine/SCons/Tool/MSCommon/vs.py -> build/lib/SCons/Tool/MSCommon
+copying engine/SCons/Tool/MSCommon/vc.py -> build/lib/SCons/Tool/MSCommon
+copying engine/SCons/Tool/MSCommon/__init__.py -> build/lib/SCons/Tool/MSCommon
+copying engine/SCons/Tool/MSCommon/netframework.py -> build/lib/SCons/Tool/MSCommon
+creating build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/ipk.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/rpm.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/zip.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/src_targz.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/src_zip.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/src_tarbz2.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/msi.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/tarbz2.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/__init__.py -> build/lib/SCons/Tool/packaging
+copying engine/SCons/Tool/packaging/targz.py -> build/lib/SCons/Tool/packaging
+creating build/lib/SCons/Variables
+copying engine/SCons/Variables/BoolVariable.py -> build/lib/SCons/Variables
+copying engine/SCons/Variables/PackageVariable.py -> build/lib/SCons/Variables
+copying engine/SCons/Variables/EnumVariable.py -> build/lib/SCons/Variables
+copying engine/SCons/Variables/ListVariable.py -> build/lib/SCons/Variables
+copying engine/SCons/Variables/PathVariable.py -> build/lib/SCons/Variables
+copying engine/SCons/Variables/__init__.py -> build/lib/SCons/Variables
+running build_scripts
+creating build/scripts
+copying and adjusting script/scons -> build/scripts
+copying and adjusting script/sconsign -> build/scripts
+copying and adjusting script/scons-time -> build/scripts
+copying script/scons-configure-cache -> build/scripts
+copying script/scons.bat -> build/scripts
+changing mode of build/scripts/scons from 644 to 755
+changing mode of build/scripts/sconsign from 644 to 755
+changing mode of build/scripts/scons-time from 644 to 755
+changing mode of build/scripts/scons-configure-cache from 644 to 755
+changing mode of build/scripts/scons.bat from 644 to 755
+running install_lib
+creating /app/lib
+creating /app/lib/scons-2.5.1
+creating /app/lib/scons-2.5.1/SCons
+creating /app/lib/scons-2.5.1/SCons/Options
+copying build/lib/SCons/Options/PackageOption.py -> /app/lib/scons-2.5.1/SCons/Options
+copying build/lib/SCons/Options/BoolOption.py -> /app/lib/scons-2.5.1/SCons/Options
+copying build/lib/SCons/Options/ListOption.py -> /app/lib/scons-2.5.1/SCons/Options
+copying build/lib/SCons/Options/PathOption.py -> /app/lib/scons-2.5.1/SCons/Options
+copying build/lib/SCons/Options/EnumOption.py -> /app/lib/scons-2.5.1/SCons/Options
+copying build/lib/SCons/Options/__init__.py -> /app/lib/scons-2.5.1/SCons/Options
+copying build/lib/SCons/Errors.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Job.py -> /app/lib/scons-2.5.1/SCons
+creating /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/C.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/Fortran.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/LaTeX.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/IDL.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/Prog.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/SWIG.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/D.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/RC.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/__init__.py -> /app/lib/scons-2.5.1/SCons/Scanner
+copying build/lib/SCons/Scanner/Dir.py -> /app/lib/scons-2.5.1/SCons/Scanner
+creating /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/cygwin.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/posix.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/irix.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/sunos.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/hpux.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/darwin.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/os2.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/__init__.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/aix.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Platform/win32.py -> /app/lib/scons-2.5.1/SCons/Platform
+copying build/lib/SCons/Conftest.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Memoize.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/PathList.py -> /app/lib/scons-2.5.1/SCons
+creating /app/lib/scons-2.5.1/SCons/Variables
+copying build/lib/SCons/Variables/BoolVariable.py -> /app/lib/scons-2.5.1/SCons/Variables
+copying build/lib/SCons/Variables/PackageVariable.py -> /app/lib/scons-2.5.1/SCons/Variables
+copying build/lib/SCons/Variables/EnumVariable.py -> /app/lib/scons-2.5.1/SCons/Variables
+copying build/lib/SCons/Variables/ListVariable.py -> /app/lib/scons-2.5.1/SCons/Variables
+copying build/lib/SCons/Variables/PathVariable.py -> /app/lib/scons-2.5.1/SCons/Variables
+copying build/lib/SCons/Variables/__init__.py -> /app/lib/scons-2.5.1/SCons/Variables
+copying build/lib/SCons/Sig.py -> /app/lib/scons-2.5.1/SCons
+creating /app/lib/scons-2.5.1/SCons/compat
+copying build/lib/SCons/compat/_scons_dbm.py -> /app/lib/scons-2.5.1/SCons/compat
+copying build/lib/SCons/compat/__init__.py -> /app/lib/scons-2.5.1/SCons/compat
+copying build/lib/SCons/dblite.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/exitfuncs.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Executor.py -> /app/lib/scons-2.5.1/SCons
+creating /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/tlib.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/qt.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/RCS.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/m4.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/link.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/gettext.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/cc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/icl.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/FortranCommon.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/hplink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/textfile.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/hpcc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/install.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/gs.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/aixlink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/rpm.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/zip.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/pdflatex.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/mslink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/msgmerge.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sgic++.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/yacc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/f03.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/cyglink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/g++.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/SCCS.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/msginit.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/Subversion.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/f90.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/ipkg.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/dvi.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/tar.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sunc++.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/mwld.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/javac.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/wix.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/gas.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/g77.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/ldc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sgilink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/Perforce.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/rpcgen.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/gfortran.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/gdc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/dmd.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/mwcc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/msvc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/masm.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/latex.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/tex.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sunf77.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/applelink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/nasm.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/midl.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/aixc++.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sunf90.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/gnulink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sgiar.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/gcc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/mslib.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/mingw.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/filesystem.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/ifl.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/f77.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/linkloc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/ar.py -> /app/lib/scons-2.5.1/SCons/Tool
+creating /app/lib/scons-2.5.1/SCons/Tool/MSCommon
+copying build/lib/SCons/Tool/MSCommon/sdk.py -> /app/lib/scons-2.5.1/SCons/Tool/MSCommon
+copying build/lib/SCons/Tool/MSCommon/common.py -> /app/lib/scons-2.5.1/SCons/Tool/MSCommon
+copying build/lib/SCons/Tool/MSCommon/arch.py -> /app/lib/scons-2.5.1/SCons/Tool/MSCommon
+copying build/lib/SCons/Tool/MSCommon/vs.py -> /app/lib/scons-2.5.1/SCons/Tool/MSCommon
+copying build/lib/SCons/Tool/MSCommon/vc.py -> /app/lib/scons-2.5.1/SCons/Tool/MSCommon
+copying build/lib/SCons/Tool/MSCommon/__init__.py -> /app/lib/scons-2.5.1/SCons/Tool/MSCommon
+copying build/lib/SCons/Tool/MSCommon/netframework.py -> /app/lib/scons-2.5.1/SCons/Tool/MSCommon
+creating /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/ipk.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/rpm.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/zip.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/src_targz.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/src_zip.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/src_tarbz2.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/msi.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/tarbz2.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/__init__.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/packaging/targz.py -> /app/lib/scons-2.5.1/SCons/Tool/packaging
+copying build/lib/SCons/Tool/dvipdf.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/BitKeeper.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/cvf.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/icc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/dvips.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/rpmutils.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/386asm.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/as.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/f95.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/default.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/hpc++.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/swig.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/ifort.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/aixcc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/intelc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/xgettext.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/jar.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sgicc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/DCommon.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/JavaCommon.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/GettextCommon.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/lex.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/CVS.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/bcc32.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/javah.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sunar.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/PharLapCommon.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/aixf77.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/msvs.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/suncc.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/pdftex.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/fortran.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/msgfmt.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/c++.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/ilink32.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/sunlink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/__init__.py -> /app/lib/scons-2.5.1/SCons/Tool
+creating /app/lib/scons-2.5.1/SCons/Tool/docbook
+copying build/lib/SCons/Tool/docbook/__init__.py -> /app/lib/scons-2.5.1/SCons/Tool/docbook
+copying build/lib/SCons/Tool/sunf95.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/rmic.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/pdf.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/ilink.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Tool/mssdk.py -> /app/lib/scons-2.5.1/SCons/Tool
+copying build/lib/SCons/Warnings.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Util.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Action.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Builder.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Debug.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/CacheDir.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/cpp.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/SConf.py -> /app/lib/scons-2.5.1/SCons
+creating /app/lib/scons-2.5.1/SCons/Node
+copying build/lib/SCons/Node/Python.py -> /app/lib/scons-2.5.1/SCons/Node
+copying build/lib/SCons/Node/FS.py -> /app/lib/scons-2.5.1/SCons/Node
+copying build/lib/SCons/Node/__init__.py -> /app/lib/scons-2.5.1/SCons/Node
+copying build/lib/SCons/Node/Alias.py -> /app/lib/scons-2.5.1/SCons/Node
+copying build/lib/SCons/Taskmaster.py -> /app/lib/scons-2.5.1/SCons
+creating /app/lib/scons-2.5.1/SCons/Script
+copying build/lib/SCons/Script/Main.py -> /app/lib/scons-2.5.1/SCons/Script
+copying build/lib/SCons/Script/Interactive.py -> /app/lib/scons-2.5.1/SCons/Script
+copying build/lib/SCons/Script/SConsOptions.py -> /app/lib/scons-2.5.1/SCons/Script
+copying build/lib/SCons/Script/SConscript.py -> /app/lib/scons-2.5.1/SCons/Script
+copying build/lib/SCons/Script/__init__.py -> /app/lib/scons-2.5.1/SCons/Script
+copying build/lib/SCons/__init__.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Subst.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/SConsign.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Environment.py -> /app/lib/scons-2.5.1/SCons
+copying build/lib/SCons/Defaults.py -> /app/lib/scons-2.5.1/SCons
+byte-compiling /app/lib/scons-2.5.1/SCons/Options/PackageOption.py to PackageOption.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Options/BoolOption.py to BoolOption.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Options/ListOption.py to ListOption.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Options/PathOption.py to PathOption.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Options/EnumOption.py to EnumOption.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Options/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Errors.py to Errors.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Job.py to Job.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/C.py to C.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/Fortran.py to Fortran.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/LaTeX.py to LaTeX.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/IDL.py to IDL.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/Prog.py to Prog.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/SWIG.py to SWIG.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/D.py to D.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/RC.py to RC.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Scanner/Dir.py to Dir.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/cygwin.py to cygwin.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/posix.py to posix.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/irix.py to irix.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/sunos.py to sunos.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/hpux.py to hpux.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/darwin.py to darwin.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/os2.py to os2.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/aix.py to aix.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Platform/win32.py to win32.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Conftest.py to Conftest.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Memoize.py to Memoize.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/PathList.py to PathList.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Variables/BoolVariable.py to BoolVariable.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Variables/PackageVariable.py to PackageVariable.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Variables/EnumVariable.py to EnumVariable.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Variables/ListVariable.py to ListVariable.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Variables/PathVariable.py to PathVariable.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Variables/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Sig.py to Sig.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/compat/_scons_dbm.py to _scons_dbm.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/compat/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/dblite.py to dblite.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/exitfuncs.py to exitfuncs.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Executor.py to Executor.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/tlib.py to tlib.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/qt.py to qt.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/RCS.py to RCS.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/m4.py to m4.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/link.py to link.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/gettext.py to gettext.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/cc.py to cc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/icl.py to icl.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/FortranCommon.py to FortranCommon.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/hplink.py to hplink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/textfile.py to textfile.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/hpcc.py to hpcc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/install.py to install.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/gs.py to gs.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/aixlink.py to aixlink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/rpm.py to rpm.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/zip.py to zip.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/pdflatex.py to pdflatex.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/mslink.py to mslink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/msgmerge.py to msgmerge.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sgic++.py to sgic++.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/yacc.py to yacc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/f03.py to f03.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/cyglink.py to cyglink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/g++.py to g++.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/SCCS.py to SCCS.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/msginit.py to msginit.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/Subversion.py to Subversion.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/f90.py to f90.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/ipkg.py to ipkg.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/dvi.py to dvi.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/tar.py to tar.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sunc++.py to sunc++.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/mwld.py to mwld.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/javac.py to javac.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/wix.py to wix.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/gas.py to gas.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/g77.py to g77.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/ldc.py to ldc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sgilink.py to sgilink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/Perforce.py to Perforce.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/rpcgen.py to rpcgen.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/gfortran.py to gfortran.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/gdc.py to gdc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/dmd.py to dmd.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/mwcc.py to mwcc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/msvc.py to msvc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/masm.py to masm.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/latex.py to latex.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/tex.py to tex.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sunf77.py to sunf77.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/applelink.py to applelink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/nasm.py to nasm.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/midl.py to midl.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/aixc++.py to aixc++.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sunf90.py to sunf90.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/gnulink.py to gnulink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sgiar.py to sgiar.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/gcc.py to gcc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/mslib.py to mslib.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/mingw.py to mingw.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/filesystem.py to filesystem.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/ifl.py to ifl.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/f77.py to f77.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/linkloc.py to linkloc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/ar.py to ar.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/MSCommon/sdk.py to sdk.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/MSCommon/common.py to common.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/MSCommon/arch.py to arch.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/MSCommon/vs.py to vs.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/MSCommon/vc.py to vc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/MSCommon/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/MSCommon/netframework.py to netframework.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/ipk.py to ipk.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/rpm.py to rpm.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/zip.py to zip.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/src_targz.py to src_targz.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/src_zip.py to src_zip.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/src_tarbz2.py to src_tarbz2.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/msi.py to msi.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/tarbz2.py to tarbz2.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/packaging/targz.py to targz.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/dvipdf.py to dvipdf.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/BitKeeper.py to BitKeeper.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/cvf.py to cvf.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/icc.py to icc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/dvips.py to dvips.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/rpmutils.py to rpmutils.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/386asm.py to 386asm.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/as.py to as.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/f95.py to f95.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/default.py to default.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/hpc++.py to hpc++.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/swig.py to swig.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/ifort.py to ifort.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/aixcc.py to aixcc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/intelc.py to intelc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/xgettext.py to xgettext.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/jar.py to jar.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sgicc.py to sgicc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/DCommon.py to DCommon.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/JavaCommon.py to JavaCommon.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/GettextCommon.py to GettextCommon.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/lex.py to lex.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/CVS.py to CVS.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/bcc32.py to bcc32.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/javah.py to javah.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sunar.py to sunar.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/PharLapCommon.py to PharLapCommon.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/aixf77.py to aixf77.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/msvs.py to msvs.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/suncc.py to suncc.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/pdftex.py to pdftex.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/fortran.py to fortran.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/msgfmt.py to msgfmt.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/c++.py to c++.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/ilink32.py to ilink32.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sunlink.py to sunlink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/docbook/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/sunf95.py to sunf95.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/rmic.py to rmic.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/pdf.py to pdf.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/ilink.py to ilink.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Tool/mssdk.py to mssdk.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Warnings.py to Warnings.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Util.py to Util.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Action.py to Action.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Builder.py to Builder.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Debug.py to Debug.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/CacheDir.py to CacheDir.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/cpp.py to cpp.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/SConf.py to SConf.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Node/Python.py to Python.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Node/FS.py to FS.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Node/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Node/Alias.py to Alias.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Taskmaster.py to Taskmaster.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Script/Main.py to Main.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Script/Interactive.py to Interactive.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Script/SConsOptions.py to SConsOptions.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Script/SConscript.py to SConscript.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Script/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/__init__.py to __init__.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Subst.py to Subst.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/SConsign.py to SConsign.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Environment.py to Environment.pyc
+byte-compiling /app/lib/scons-2.5.1/SCons/Defaults.py to Defaults.pyc
+running install_scripts
+creating /app/bin
+copying script/scons -> /app/bin/scons-2.5.1
+copying script/scons -> /app/bin
+copying script/sconsign -> /app/bin/sconsign-2.5.1
+copying script/sconsign -> /app/bin
+copying script/scons-time -> /app/bin/scons-time-2.5.1
+copying script/scons-time -> /app/bin
+copying script/scons-configure-cache -> /app/bin/scons-configure-cache-2.5.1
+copying script/scons-configure-cache -> /app/bin
+running install_data
+creating /app/man
+creating /app/man/man1
+copying scons.1 -> /app/man/man1
+copying sconsign.1 -> /app/man/man1
+copying scons-time.1 -> /app/man/man1
+running install_egg_info
+Writing /app/lib/scons-2.5.1/scons-2.5.1-py2.7.egg-info
+Installed SCons library modules into /app/lib/scons-2.5.1
+Installed SCons scripts into /app/bin
+Installed SCons man pages into /app/man/man1
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Options/PackageOption.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Options/BoolOption.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Options/ListOption.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Options/PathOption.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Options/EnumOption.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Options/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/C.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/Fortran.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/LaTeX.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/IDL.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/Prog.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/SWIG.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/D.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/RC.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Scanner/Dir.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/cygwin.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/posix.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/irix.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/sunos.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/hpux.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/darwin.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/os2.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/aix.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Platform/win32.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Variables/BoolVariable.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Variables/PackageVariable.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Variables/EnumVariable.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Variables/ListVariable.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Variables/PathVariable.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Variables/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/compat/_scons_dbm.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/compat/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/MSCommon/sdk.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/MSCommon/common.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/MSCommon/arch.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/MSCommon/vs.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/MSCommon/vc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/MSCommon/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/MSCommon/netframework.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/ipk.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/rpm.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/zip.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/src_targz.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/src_zip.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/src_tarbz2.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/msi.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/tarbz2.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/packaging/targz.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/docbook/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/tlib.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/qt.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/RCS.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/m4.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/link.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/gettext.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/cc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/icl.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/FortranCommon.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/hplink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/textfile.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/hpcc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/install.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/gs.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/aixlink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/rpm.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/zip.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/pdflatex.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/mslink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/msgmerge.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sgic++.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/yacc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/f03.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/cyglink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/g++.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/SCCS.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/msginit.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/Subversion.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/f90.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/ipkg.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/dvi.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/tar.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sunc++.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/mwld.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/javac.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/wix.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/gas.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/g77.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/ldc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sgilink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/Perforce.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/rpcgen.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/gfortran.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/gdc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/dmd.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/mwcc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/msvc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/masm.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/latex.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/tex.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sunf77.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/applelink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/nasm.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/midl.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/aixc++.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sunf90.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/gnulink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sgiar.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/gcc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/mslib.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/mingw.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/filesystem.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/ifl.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/f77.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/linkloc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/ar.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/dvipdf.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/BitKeeper.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/cvf.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/icc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/dvips.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/rpmutils.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/386asm.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/as.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/f95.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/default.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/hpc++.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/swig.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/ifort.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/aixcc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/intelc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/xgettext.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/jar.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sgicc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/DCommon.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/JavaCommon.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/GettextCommon.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/lex.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/CVS.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/bcc32.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/javah.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sunar.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/PharLapCommon.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/aixf77.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/msvs.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/suncc.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/pdftex.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/fortran.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/msgfmt.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/c++.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/ilink32.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sunlink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/sunf95.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/rmic.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/pdf.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/ilink.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Tool/mssdk.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Node/Python.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Node/FS.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Node/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Node/Alias.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Script/Main.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Script/Interactive.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Script/SConsOptions.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Script/SConscript.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Script/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Errors.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Job.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Conftest.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Memoize.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/PathList.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Sig.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/dblite.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/exitfuncs.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Executor.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Warnings.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Util.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Action.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Builder.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Debug.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/CacheDir.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/cpp.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/SConf.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Taskmaster.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/__init__.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Subst.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/SConsign.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Environment.pyc
+Fixed up header mtime for files/lib/scons-2.5.1/SCons/Defaults.pyc
+Committing stage build-scons to cache
+========================================================================
+Building module glfw in /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/build/glfw-1
+========================================================================
+Archive:  /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/downloads/b7d55e13e07095119e7d5f6792586dd0849c9fcdd867d49a4a5ac31f982f7326/glfw-3.2.1.zip
+   creating: glfw-3.2.1/
+  inflating: glfw-3.2.1/.travis.yml  
+   creating: glfw-3.2.1/include/
+   creating: glfw-3.2.1/include/GLFW/
+  inflating: glfw-3.2.1/include/GLFW/glfw3.h  
+  inflating: glfw-3.2.1/include/GLFW/glfw3native.h  
+  inflating: glfw-3.2.1/.appveyor.yml  
+  inflating: glfw-3.2.1/COPYING.txt  
+   creating: glfw-3.2.1/examples/
+  inflating: glfw-3.2.1/examples/particles.c  
+  inflating: glfw-3.2.1/examples/simple.c  
+  inflating: glfw-3.2.1/examples/glfw.rc  
+  inflating: glfw-3.2.1/examples/glfw.ico  
+  inflating: glfw-3.2.1/examples/heightmap.c  
+  inflating: glfw-3.2.1/examples/CMakeLists.txt  
+  inflating: glfw-3.2.1/examples/gears.c  
+  inflating: glfw-3.2.1/examples/wave.c  
+  inflating: glfw-3.2.1/examples/splitview.c  
+  inflating: glfw-3.2.1/examples/boing.c  
+  inflating: glfw-3.2.1/examples/glfw.icns  
+   creating: glfw-3.2.1/docs/
+  inflating: glfw-3.2.1/docs/moving.dox  
+  inflating: glfw-3.2.1/docs/monitor.dox  
+  inflating: glfw-3.2.1/docs/spaces.svg  
+  inflating: glfw-3.2.1/docs/compile.dox  
+  inflating: glfw-3.2.1/docs/DoxygenLayout.xml  
+  inflating: glfw-3.2.1/docs/extra.less  
+  inflating: glfw-3.2.1/docs/vulkan.dox  
+  inflating: glfw-3.2.1/docs/build.dox  
+  inflating: glfw-3.2.1/docs/header.html  
+  inflating: glfw-3.2.1/docs/context.dox  
+  inflating: glfw-3.2.1/docs/main.dox  
+  inflating: glfw-3.2.1/docs/CMakeLists.txt  
+  inflating: glfw-3.2.1/docs/news.dox  
+  inflating: glfw-3.2.1/docs/window.dox  
+  inflating: glfw-3.2.1/docs/internal.dox  
+  inflating: glfw-3.2.1/docs/input.dox  
+  inflating: glfw-3.2.1/docs/quick.dox  
+  inflating: glfw-3.2.1/docs/extra.css  
+  inflating: glfw-3.2.1/docs/compat.dox  
+  inflating: glfw-3.2.1/docs/footer.html  
+   creating: glfw-3.2.1/docs/html/
+  inflating: glfw-3.2.1/docs/html/globals_defs_o.html  
+  inflating: glfw-3.2.1/docs/html/build_8dox.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_b.html  
+  inflating: glfw-3.2.1/docs/html/open.png  
+  inflating: glfw-3.2.1/docs/html/globals_defs_f.html  
+  inflating: glfw-3.2.1/docs/html/moving_guide.html  
+  inflating: glfw-3.2.1/docs/html/group__native.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_h.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_t.html  
+  inflating: glfw-3.2.1/docs/html/vulkan_guide.html  
+  inflating: glfw-3.2.1/docs/html/intro_8dox.html  
+  inflating: glfw-3.2.1/docs/html/intro_guide.html  
+  inflating: glfw-3.2.1/docs/html/group__joysticks.html  
+  inflating: glfw-3.2.1/docs/html/globals_t.html  
+  inflating: glfw-3.2.1/docs/html/tabs.css  
+  inflating: glfw-3.2.1/docs/html/functions_vars.html  
+  inflating: glfw-3.2.1/docs/html/globals_r.html  
+  inflating: glfw-3.2.1/docs/html/splitbar.png  
+  inflating: glfw-3.2.1/docs/html/group__keys.html  
+  inflating: glfw-3.2.1/docs/html/compat_8dox.html  
+  inflating: glfw-3.2.1/docs/html/group__buttons.html  
+  inflating: glfw-3.2.1/docs/html/group__shapes.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_d.html  
+  inflating: glfw-3.2.1/docs/html/bug.html  
+ extracting: glfw-3.2.1/docs/html/sync_on.png  
+  inflating: glfw-3.2.1/docs/html/glfw3native_8h_source.html  
+  inflating: glfw-3.2.1/docs/html/spaces.svg  
+  inflating: glfw-3.2.1/docs/html/group__context.html  
+  inflating: glfw-3.2.1/docs/html/globals_i.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_l.html  
+  inflating: glfw-3.2.1/docs/html/nav_h.png  
+  inflating: glfw-3.2.1/docs/html/window_8dox.html  
+ extracting: glfw-3.2.1/docs/html/folderopen.png  
+  inflating: glfw-3.2.1/docs/html/globals_k.html  
+  inflating: glfw-3.2.1/docs/html/doxygen.css  
+  inflating: glfw-3.2.1/docs/html/globals_l.html  
+ extracting: glfw-3.2.1/docs/html/bc_s.png  
+  inflating: glfw-3.2.1/docs/html/input_guide.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_i.html  
+ extracting: glfw-3.2.1/docs/html/doxygen.png  
+  inflating: glfw-3.2.1/docs/html/jquery.js  
+  inflating: glfw-3.2.1/docs/html/group__init.html  
+  inflating: glfw-3.2.1/docs/html/compat_guide.html  
+  inflating: glfw-3.2.1/docs/html/group__window.html  
+  inflating: glfw-3.2.1/docs/html/main_8dox.html  
+  inflating: glfw-3.2.1/docs/html/globals_type.html  
+  inflating: glfw-3.2.1/docs/html/globals_p.html  
+  inflating: glfw-3.2.1/docs/html/nav_g.png  
+  inflating: glfw-3.2.1/docs/html/group__mods.html  
+ extracting: glfw-3.2.1/docs/html/tab_b.png  
+ extracting: glfw-3.2.1/docs/html/sync_off.png  
+  inflating: glfw-3.2.1/docs/html/globals_j.html  
+  inflating: glfw-3.2.1/docs/html/globals_b.html  
+  inflating: glfw-3.2.1/docs/html/classes.html  
+  inflating: glfw-3.2.1/docs/html/globals_m.html  
+  inflating: glfw-3.2.1/docs/html/moving_8dox.html  
+  inflating: glfw-3.2.1/docs/html/files.html  
+  inflating: glfw-3.2.1/docs/html/context_guide.html  
+  inflating: glfw-3.2.1/docs/html/closed.png  
+  inflating: glfw-3.2.1/docs/html/globals_w.html  
+  inflating: glfw-3.2.1/docs/html/news_8dox.html  
+  inflating: glfw-3.2.1/docs/html/dir_4bcf8e981abe5adb811ce4f57d70c9af.html  
+  inflating: glfw-3.2.1/docs/html/compile_guide.html  
+  inflating: glfw-3.2.1/docs/html/monitor_8dox.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_p.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_c.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_j.html  
+  inflating: glfw-3.2.1/docs/html/glfw3_8h.html  
+  inflating: glfw-3.2.1/docs/html/dir_1f12d41534b9d9c99a183e145b58d6f3.html  
+  inflating: glfw-3.2.1/docs/html/bdwn.png  
+  inflating: glfw-3.2.1/docs/html/build_guide.html  
+ extracting: glfw-3.2.1/docs/html/arrowdown.png  
+  inflating: glfw-3.2.1/docs/html/globals_e.html  
+  inflating: glfw-3.2.1/docs/html/globals_s.html  
+  inflating: glfw-3.2.1/docs/html/globals_n.html  
+  inflating: glfw-3.2.1/docs/html/group__input.html  
+  inflating: glfw-3.2.1/docs/html/news.html  
+  inflating: glfw-3.2.1/docs/html/globals_func.html  
+  inflating: glfw-3.2.1/docs/html/index.html  
+  inflating: glfw-3.2.1/docs/html/globals_f.html  
+  inflating: glfw-3.2.1/docs/html/glfw3native_8h.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_v.html  
+ extracting: glfw-3.2.1/docs/html/nav_f.png  
+   creating: glfw-3.2.1/docs/html/search/
+  inflating: glfw-3.2.1/docs/html/search/groups_6.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_0.js  
+  inflating: glfw-3.2.1/docs/html/search/pages_6.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_9.html  
+  inflating: glfw-3.2.1/docs/html/search/defines_0.html  
+  inflating: glfw-3.2.1/docs/html/search/typedefs_0.html  
+  inflating: glfw-3.2.1/docs/html/search/functions_0.html  
+  inflating: glfw-3.2.1/docs/html/search/all_6.html  
+  inflating: glfw-3.2.1/docs/html/search/files_5.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_7.js  
+ extracting: glfw-3.2.1/docs/html/search/close.png  
+  inflating: glfw-3.2.1/docs/html/search/all_2.js  
+  inflating: glfw-3.2.1/docs/html/search/all_5.js  
+  inflating: glfw-3.2.1/docs/html/search/files_2.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_2.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_2.js  
+  inflating: glfw-3.2.1/docs/html/search/all_9.html  
+  inflating: glfw-3.2.1/docs/html/search/defines_0.js  
+  inflating: glfw-3.2.1/docs/html/search/all_8.html  
+  inflating: glfw-3.2.1/docs/html/search/files_7.js  
+  inflating: glfw-3.2.1/docs/html/search/all_b.js  
+  inflating: glfw-3.2.1/docs/html/search/all_d.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_5.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_3.html  
+ extracting: glfw-3.2.1/docs/html/search/mag_sel.png  
+  inflating: glfw-3.2.1/docs/html/search/files_8.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_6.js  
+  inflating: glfw-3.2.1/docs/html/search/files_0.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_8.html  
+  inflating: glfw-3.2.1/docs/html/search/files_1.js  
+  inflating: glfw-3.2.1/docs/html/search/pages_6.js  
+  inflating: glfw-3.2.1/docs/html/search/all_7.html  
+  inflating: glfw-3.2.1/docs/html/search/files_7.html  
+  inflating: glfw-3.2.1/docs/html/search/all_0.js  
+  inflating: glfw-3.2.1/docs/html/search/pages_7.html  
+  inflating: glfw-3.2.1/docs/html/search/files_5.html  
+  inflating: glfw-3.2.1/docs/html/search/all_a.html  
+  inflating: glfw-3.2.1/docs/html/search/searchdata.js  
+  inflating: glfw-3.2.1/docs/html/search/pages_0.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_4.html  
+  inflating: glfw-3.2.1/docs/html/search/all_c.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_2.html  
+  inflating: glfw-3.2.1/docs/html/search/variables_6.html  
+  inflating: glfw-3.2.1/docs/html/search/search.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_4.js  
+  inflating: glfw-3.2.1/docs/html/search/all_9.js  
+  inflating: glfw-3.2.1/docs/html/search/all_d.html  
+  inflating: glfw-3.2.1/docs/html/search/all_1.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_3.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_1.html  
+  inflating: glfw-3.2.1/docs/html/search/variables_1.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_0.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_5.js  
+  inflating: glfw-3.2.1/docs/html/search/pages_4.html  
+  inflating: glfw-3.2.1/docs/html/search/files_6.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_5.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_4.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_3.js  
+  inflating: glfw-3.2.1/docs/html/search/all_2.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_8.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_5.js  
+  inflating: glfw-3.2.1/docs/html/search/pages_7.js  
+  inflating: glfw-3.2.1/docs/html/search/classes_0.html  
+  inflating: glfw-3.2.1/docs/html/search/search_m.png  
+  inflating: glfw-3.2.1/docs/html/search/files_1.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_0.html  
+  inflating: glfw-3.2.1/docs/html/search/files_4.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_7.html  
+  inflating: glfw-3.2.1/docs/html/search/functions_0.js  
+  inflating: glfw-3.2.1/docs/html/search/nomatches.html  
+ extracting: glfw-3.2.1/docs/html/search/search_l.png  
+  inflating: glfw-3.2.1/docs/html/search/files_4.html  
+  inflating: glfw-3.2.1/docs/html/search/search.css  
+  inflating: glfw-3.2.1/docs/html/search/all_0.html  
+  inflating: glfw-3.2.1/docs/html/search/all_1.js  
+  inflating: glfw-3.2.1/docs/html/search/all_5.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_8.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_4.js  
+  inflating: glfw-3.2.1/docs/html/search/all_f.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_1.html  
+  inflating: glfw-3.2.1/docs/html/search/all_7.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_3.js  
+  inflating: glfw-3.2.1/docs/html/search/files_0.js  
+  inflating: glfw-3.2.1/docs/html/search/all_b.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_6.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_2.js  
+  inflating: glfw-3.2.1/docs/html/search/all_e.js  
+ extracting: glfw-3.2.1/docs/html/search/search_r.png  
+  inflating: glfw-3.2.1/docs/html/search/pages_1.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_1.js  
+  inflating: glfw-3.2.1/docs/html/search/files_6.html  
+  inflating: glfw-3.2.1/docs/html/search/all_e.html  
+  inflating: glfw-3.2.1/docs/html/search/variables_0.js  
+  inflating: glfw-3.2.1/docs/html/search/all_4.js  
+  inflating: glfw-3.2.1/docs/html/search/typedefs_0.js  
+  inflating: glfw-3.2.1/docs/html/search/files_3.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_8.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_4.html  
+  inflating: glfw-3.2.1/docs/html/search/pages_3.js  
+  inflating: glfw-3.2.1/docs/html/search/files_3.js  
+  inflating: glfw-3.2.1/docs/html/search/pages_5.html  
+  inflating: glfw-3.2.1/docs/html/search/all_6.js  
+  inflating: glfw-3.2.1/docs/html/search/groups_5.js  
+  inflating: glfw-3.2.1/docs/html/search/pages_2.html  
+  inflating: glfw-3.2.1/docs/html/search/variables_0.html  
+  inflating: glfw-3.2.1/docs/html/search/all_f.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_9.js  
+  inflating: glfw-3.2.1/docs/html/search/all_a.js  
+  inflating: glfw-3.2.1/docs/html/search/variables_3.html  
+  inflating: glfw-3.2.1/docs/html/search/files_8.html  
+  inflating: glfw-3.2.1/docs/html/search/variables_2.html  
+  inflating: glfw-3.2.1/docs/html/search/groups_1.html  
+  inflating: glfw-3.2.1/docs/html/search/classes_0.js  
+  inflating: glfw-3.2.1/docs/html/search/files_2.html  
+  inflating: glfw-3.2.1/docs/html/search/all_3.html  
+  inflating: glfw-3.2.1/docs/html/search/all_3.js  
+  inflating: glfw-3.2.1/docs/html/search/all_8.js  
+  inflating: glfw-3.2.1/docs/html/search/all_c.js  
+  inflating: glfw-3.2.1/docs/html/search/all_4.html  
+  inflating: glfw-3.2.1/docs/html/globals_d.html  
+  inflating: glfw-3.2.1/docs/html/glfw3_8h_source.html  
+  inflating: glfw-3.2.1/docs/html/dynsections.js  
+  inflating: glfw-3.2.1/docs/html/structGLFWimage.html  
+  inflating: glfw-3.2.1/docs/html/annotated.html  
+  inflating: glfw-3.2.1/docs/html/input_8dox.html  
+ extracting: glfw-3.2.1/docs/html/arrowright.png  
+  inflating: glfw-3.2.1/docs/html/quick_8dox.html  
+  inflating: glfw-3.2.1/docs/html/globals_h.html  
+  inflating: glfw-3.2.1/docs/html/globals_o.html  
+  inflating: glfw-3.2.1/docs/html/compile_8dox.html  
+  inflating: glfw-3.2.1/docs/html/functions.html  
+  inflating: glfw-3.2.1/docs/html/modules.html  
+ extracting: glfw-3.2.1/docs/html/folderclosed.png  
+  inflating: glfw-3.2.1/docs/html/globals_defs_r.html  
+  inflating: glfw-3.2.1/docs/html/monitor_guide.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_m.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_g.html  
+  inflating: glfw-3.2.1/docs/html/globals.html  
+  inflating: glfw-3.2.1/docs/html/quick_guide.html  
+  inflating: glfw-3.2.1/docs/html/structGLFWgammaramp.html  
+  inflating: glfw-3.2.1/docs/html/group__errors.html  
+  inflating: glfw-3.2.1/docs/html/group__monitor.html  
+  inflating: glfw-3.2.1/docs/html/extra.css  
+ extracting: glfw-3.2.1/docs/html/doc.png  
+  inflating: glfw-3.2.1/docs/html/globals_c.html  
+  inflating: glfw-3.2.1/docs/html/dir_351f617146de9499414a6c099ebbe0ca.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_n.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_s.html  
+ extracting: glfw-3.2.1/docs/html/tab_s.png  
+ extracting: glfw-3.2.1/docs/html/tab_a.png  
+  inflating: glfw-3.2.1/docs/html/globals_g.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_k.html  
+  inflating: glfw-3.2.1/docs/html/globals_defs_e.html  
+  inflating: glfw-3.2.1/docs/html/group__vulkan.html  
+  inflating: glfw-3.2.1/docs/html/pages.html  
+  inflating: glfw-3.2.1/docs/html/context_8dox.html  
+  inflating: glfw-3.2.1/docs/html/structGLFWvidmode.html  
+ extracting: glfw-3.2.1/docs/html/tab_h.png  
+  inflating: glfw-3.2.1/docs/html/globals_v.html  
+  inflating: glfw-3.2.1/docs/html/window_guide.html  
+  inflating: glfw-3.2.1/docs/html/vulkan_8dox.html  
+  inflating: glfw-3.2.1/docs/intro.dox  
+  inflating: glfw-3.2.1/docs/Doxyfile.in  
+  inflating: glfw-3.2.1/cmake_uninstall.cmake.in  
+   creating: glfw-3.2.1/src/
+  inflating: glfw-3.2.1/src/init.c   
+  inflating: glfw-3.2.1/src/win32_joystick.c  
+  inflating: glfw-3.2.1/src/context.c  
+  inflating: glfw-3.2.1/src/glx_context.c  
+  inflating: glfw-3.2.1/src/glfw_config.h.in  
+  inflating: glfw-3.2.1/src/win32_init.c  
+  inflating: glfw-3.2.1/src/linux_joystick.h  
+  inflating: glfw-3.2.1/src/glx_context.h  
+  inflating: glfw-3.2.1/src/vulkan.c  
+  inflating: glfw-3.2.1/src/cocoa_joystick.m  
+  inflating: glfw-3.2.1/src/wl_init.c  
+  inflating: glfw-3.2.1/src/cocoa_time.c  
+  inflating: glfw-3.2.1/src/wl_window.c  
+  inflating: glfw-3.2.1/src/x11_init.c  
+  inflating: glfw-3.2.1/src/x11_monitor.c  
+  inflating: glfw-3.2.1/src/win32_tls.c  
+  inflating: glfw-3.2.1/src/mir_window.c  
+  inflating: glfw-3.2.1/src/wgl_context.h  
+  inflating: glfw-3.2.1/src/mir_monitor.c  
+  inflating: glfw-3.2.1/src/win32_window.c  
+  inflating: glfw-3.2.1/src/nsgl_context.h  
+  inflating: glfw-3.2.1/src/egl_context.c  
+  inflating: glfw-3.2.1/src/posix_tls.h  
+ extracting: glfw-3.2.1/src/glfw3Config.cmake.in  
+  inflating: glfw-3.2.1/src/cocoa_monitor.m  
+  inflating: glfw-3.2.1/src/xkb_unicode.c  
+  inflating: glfw-3.2.1/src/xkb_unicode.h  
+  inflating: glfw-3.2.1/src/win32_monitor.c  
+  inflating: glfw-3.2.1/src/mir_platform.h  
+  inflating: glfw-3.2.1/src/win32_time.c  
+  inflating: glfw-3.2.1/src/cocoa_joystick.h  
+  inflating: glfw-3.2.1/src/internal.h  
+  inflating: glfw-3.2.1/src/CMakeLists.txt  
+  inflating: glfw-3.2.1/src/posix_time.h  
+  inflating: glfw-3.2.1/src/glfw3.pc.in  
+  inflating: glfw-3.2.1/src/win32_platform.h  
+  inflating: glfw-3.2.1/src/wl_platform.h  
+  inflating: glfw-3.2.1/src/mir_init.c  
+  inflating: glfw-3.2.1/src/cocoa_platform.h  
+  inflating: glfw-3.2.1/src/monitor.c  
+  inflating: glfw-3.2.1/src/egl_context.h  
+  inflating: glfw-3.2.1/src/posix_tls.c  
+  inflating: glfw-3.2.1/src/linux_joystick.c  
+  inflating: glfw-3.2.1/src/wgl_context.c  
+  inflating: glfw-3.2.1/src/input.c  
+  inflating: glfw-3.2.1/src/win32_joystick.h  
+  inflating: glfw-3.2.1/src/cocoa_window.m  
+  inflating: glfw-3.2.1/src/x11_window.c  
+  inflating: glfw-3.2.1/src/window.c  
+  inflating: glfw-3.2.1/src/nsgl_context.m  
+  inflating: glfw-3.2.1/src/cocoa_init.m  
+  inflating: glfw-3.2.1/src/posix_time.c  
+  inflating: glfw-3.2.1/src/x11_platform.h  
+  inflating: glfw-3.2.1/src/wl_monitor.c  
+  inflating: glfw-3.2.1/CMakeLists.txt  
+  inflating: glfw-3.2.1/README.md    
+   creating: glfw-3.2.1/.github/
+  inflating: glfw-3.2.1/.github/CONTRIBUTING.md  
+   creating: glfw-3.2.1/CMake/
+  inflating: glfw-3.2.1/CMake/amd64-mingw32msvc.cmake  
+  inflating: glfw-3.2.1/CMake/MacOSXBundleInfo.plist.in  
+  inflating: glfw-3.2.1/CMake/i586-mingw32msvc.cmake  
+  inflating: glfw-3.2.1/CMake/i686-w64-mingw32.cmake  
+   creating: glfw-3.2.1/CMake/modules/
+  inflating: glfw-3.2.1/CMake/modules/FindMir.cmake  
+  inflating: glfw-3.2.1/CMake/modules/FindWaylandProtocols.cmake  
+  inflating: glfw-3.2.1/CMake/modules/FindXKBCommon.cmake  
+  inflating: glfw-3.2.1/CMake/modules/FindVulkan.cmake  
+  inflating: glfw-3.2.1/CMake/i686-pc-mingw32.cmake  
+  inflating: glfw-3.2.1/CMake/x86_64-w64-mingw32.cmake  
+   creating: glfw-3.2.1/tests/
+  inflating: glfw-3.2.1/tests/reopen.c  
+  inflating: glfw-3.2.1/tests/threads.c  
+  inflating: glfw-3.2.1/tests/cursor.c  
+  inflating: glfw-3.2.1/tests/vulkan.c  
+  inflating: glfw-3.2.1/tests/title.c  
+  inflating: glfw-3.2.1/tests/windows.c  
+  inflating: glfw-3.2.1/tests/events.c  
+  inflating: glfw-3.2.1/tests/monitors.c  
+  inflating: glfw-3.2.1/tests/msaa.c  
+  inflating: glfw-3.2.1/tests/glfwinfo.c  
+  inflating: glfw-3.2.1/tests/timeout.c  
+  inflating: glfw-3.2.1/tests/sharing.c  
+  inflating: glfw-3.2.1/tests/tearing.c  
+  inflating: glfw-3.2.1/tests/CMakeLists.txt  
+  inflating: glfw-3.2.1/tests/gamma.c  
+  inflating: glfw-3.2.1/tests/empty.c  
+  inflating: glfw-3.2.1/tests/clipboard.c  
+  inflating: glfw-3.2.1/tests/joysticks.c  
+  inflating: glfw-3.2.1/tests/icon.c  
+  inflating: glfw-3.2.1/tests/iconify.c  
+   creating: glfw-3.2.1/deps/
+  inflating: glfw-3.2.1/deps/glad.c  
+   creating: glfw-3.2.1/deps/glad/
+  inflating: glfw-3.2.1/deps/glad/glad.h  
+   creating: glfw-3.2.1/deps/vulkan/
+  inflating: glfw-3.2.1/deps/vulkan/vulkan.h  
+  inflating: glfw-3.2.1/deps/vulkan/vk_platform.h  
+   creating: glfw-3.2.1/deps/KHR/
+  inflating: glfw-3.2.1/deps/KHR/khrplatform.h  
+  inflating: glfw-3.2.1/deps/getopt.c  
+  inflating: glfw-3.2.1/deps/tinycthread.h  
+   creating: glfw-3.2.1/deps/mingw/
+  inflating: glfw-3.2.1/deps/mingw/_mingw_dxhelper.h  
+  inflating: glfw-3.2.1/deps/mingw/xinput.h  
+  inflating: glfw-3.2.1/deps/mingw/dinput.h  
+  inflating: glfw-3.2.1/deps/linmath.h  
+  inflating: glfw-3.2.1/deps/tinycthread.c  
+  inflating: glfw-3.2.1/deps/getopt.h  
+-- The C compiler identification is GNU 8.2.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Vulkan: /usr/lib/x86_64-linux-gnu/libvulkan.so  
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using X11 for window creation
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /run/build/glfw/_flatpak_build
+[1/107] Building C object src/CMakeFiles/glfw.dir/init.c.o
+[2/107] Building C object src/CMakeFiles/glfw.dir/context.c.o
+[3/107] Building C object src/CMakeFiles/glfw.dir/vulkan.c.o
+[4/107] Building C object src/CMakeFiles/glfw.dir/input.c.o
+[5/107] Building C object src/CMakeFiles/glfw.dir/monitor.c.o
+[6/107] Building C object src/CMakeFiles/glfw.dir/window.c.o
+[7/107] Building C object src/CMakeFiles/glfw.dir/x11_monitor.c.o
+[8/107] Building C object src/CMakeFiles/glfw.dir/xkb_unicode.c.o
+[9/107] Building C object src/CMakeFiles/glfw.dir/x11_init.c.o
+[10/107] Building C object src/CMakeFiles/glfw.dir/posix_time.c.o
+[11/107] Building C object src/CMakeFiles/glfw.dir/linux_joystick.c.o
+../src/linux_joystick.c: In function ‘_glfwInitJoysticksLinux’:
+../src/linux_joystick.c:224:46: warning: ‘%s’ directive output may be truncated writing up to 255 bytes into a region of size 9 [-Wformat-truncation=]
+             snprintf(path, sizeof(path), "%s/%s", dirname, entry->d_name);
+                                              ^~
+../src/linux_joystick.c:224:13: note: ‘snprintf’ output between 12 and 267 bytes into a destination of size 20
+             snprintf(path, sizeof(path), "%s/%s", dirname, entry->d_name);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[12/107] Building C object src/CMakeFiles/glfw.dir/posix_tls.c.o
+[13/107] Building C object src/CMakeFiles/glfw.dir/x11_window.c.o
+[14/107] Building C object src/CMakeFiles/glfw.dir/glx_context.c.o
+[15/107] Building C object examples/CMakeFiles/wave.dir/wave.c.o
+[16/107] Building C object src/CMakeFiles/glfw.dir/egl_context.c.o
+[17/107] Linking C shared library src/libglfw.so.3.2
+[18/107] Creating library symlink src/libglfw.so.3 src/libglfw.so
+[19/107] Building C object examples/CMakeFiles/gears.dir/gears.c.o
+[20/107] Building C object examples/CMakeFiles/wave.dir/__/deps/glad.c.o
+[21/107] Building C object examples/CMakeFiles/boing.dir/boing.c.o
+[22/107] Building C object examples/CMakeFiles/gears.dir/__/deps/glad.c.o
+[23/107] Linking C executable examples/wave
+[24/107] Linking C executable examples/gears
+[25/107] Building C object examples/CMakeFiles/heightmap.dir/heightmap.c.o
+[26/107] Building C object examples/CMakeFiles/boing.dir/__/deps/glad.c.o
+[27/107] Building C object examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o
+[28/107] Linking C executable examples/boing
+[29/107] Building C object examples/CMakeFiles/particles.dir/__/deps/getopt.c.o
+[30/107] Building C object examples/CMakeFiles/heightmap.dir/__/deps/glad.c.o
+[31/107] Building C object examples/CMakeFiles/particles.dir/particles.c.o
+[32/107] Linking C executable examples/heightmap
+[33/107] Building C object examples/CMakeFiles/splitview.dir/splitview.c.o
+[34/107] Building C object examples/CMakeFiles/simple.dir/simple.c.o
+[35/107] Building C object examples/CMakeFiles/particles.dir/__/deps/glad.c.o
+[36/107] Linking C executable examples/particles
+[37/107] Building C object tests/CMakeFiles/title.dir/title.c.o
+[38/107] Building C object examples/CMakeFiles/splitview.dir/__/deps/glad.c.o
+[39/107] Linking C executable examples/splitview
+[40/107] Building C object tests/CMakeFiles/cursor.dir/cursor.c.o
+[41/107] Building C object examples/CMakeFiles/simple.dir/__/deps/glad.c.o
+[42/107] Building C object tests/CMakeFiles/msaa.dir/msaa.c.o
+[43/107] Linking C executable examples/simple
+[44/107] Building C object tests/CMakeFiles/msaa.dir/__/deps/getopt.c.o
+[45/107] Building C object tests/CMakeFiles/title.dir/__/deps/glad.c.o
+[46/107] Linking C executable tests/title
+[47/107] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o
+[48/107] Building C object tests/CMakeFiles/cursor.dir/__/deps/glad.c.o
+[49/107] Linking C executable tests/cursor
+[50/107] Building C object tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o
+[51/107] Building C object tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.o
+[52/107] Building C object tests/CMakeFiles/threads.dir/threads.c.o
+[53/107] Building C object tests/CMakeFiles/msaa.dir/__/deps/glad.c.o
+[54/107] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/glad.c.o
+[55/107] Linking C executable tests/msaa
+[56/107] Linking C executable tests/glfwinfo
+[57/107] Building C object tests/CMakeFiles/clipboard.dir/clipboard.c.o
+[58/107] Building C object tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.o
+[59/107] Building C object tests/CMakeFiles/monitors.dir/__/deps/getopt.c.o
+[60/107] Building C object tests/CMakeFiles/monitors.dir/monitors.c.o
+[61/107] Building C object tests/CMakeFiles/iconify.dir/iconify.c.o
+[62/107] Building C object tests/CMakeFiles/threads.dir/__/deps/glad.c.o
+[63/107] Building C object tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o
+[64/107] Linking C executable tests/threads
+[65/107] Building C object tests/CMakeFiles/clipboard.dir/__/deps/glad.c.o
+[66/107] Building C object tests/CMakeFiles/gamma.dir/gamma.c.o
+[67/107] Building C object tests/CMakeFiles/monitors.dir/__/deps/glad.c.o
+[68/107] Linking C executable tests/clipboard
+[69/107] Building C object tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o
+[70/107] Linking C executable tests/monitors
+[71/107] Building C object tests/CMakeFiles/iconify.dir/__/deps/glad.c.o
+[72/107] Linking C executable tests/iconify
+[73/107] Building C object tests/CMakeFiles/events.dir/events.c.o
+[74/107] Building C object tests/CMakeFiles/events.dir/__/deps/getopt.c.o
+[75/107] Building C object tests/CMakeFiles/gamma.dir/__/deps/glad.c.o
+[76/107] Linking C executable tests/gamma
+[77/107] Building C object tests/CMakeFiles/icon.dir/icon.c.o
+[78/107] Building C object tests/CMakeFiles/sharing.dir/sharing.c.o
+[79/107] Building C object tests/CMakeFiles/vulkan.dir/vulkan.c.o
+[80/107] Building C object tests/CMakeFiles/events.dir/__/deps/glad.c.o
+[81/107] Linking C executable tests/vulkan
+[82/107] Linking C executable tests/events
+[83/107] Building C object tests/CMakeFiles/joysticks.dir/joysticks.c.o
+[84/107] Building C object tests/CMakeFiles/icon.dir/__/deps/glad.c.o
+[85/107] Building C object tests/CMakeFiles/reopen.dir/reopen.c.o
+[86/107] Linking C executable tests/icon
+[87/107] Building C object tests/CMakeFiles/sharing.dir/__/deps/glad.c.o
+[88/107] Linking C executable tests/sharing
+[89/107] Building C object tests/CMakeFiles/timeout.dir/timeout.c.o
+[90/107] Building C object tests/CMakeFiles/windows.dir/windows.c.o
+[91/107] Building C object tests/CMakeFiles/joysticks.dir/__/deps/glad.c.o
+[92/107] Linking C executable tests/joysticks
+[93/107] Building C object tests/CMakeFiles/windows.dir/__/deps/getopt.c.o
+[94/107] Building C object tests/CMakeFiles/reopen.dir/__/deps/glad.c.o
+[95/107] Linking C executable tests/reopen
+[96/107] Building C object tests/CMakeFiles/empty.dir/empty.c.o
+[97/107] Building C object tests/CMakeFiles/timeout.dir/__/deps/glad.c.o
+[98/107] Linking C executable tests/timeout
+[99/107] Building C object tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o
+[100/107] Building C object tests/CMakeFiles/tearing.dir/__/deps/getopt.c.o
+[101/107] Building C object tests/CMakeFiles/tearing.dir/tearing.c.o
+[102/107] Building C object tests/CMakeFiles/windows.dir/__/deps/glad.c.o
+[103/107] Linking C executable tests/windows
+[104/107] Building C object tests/CMakeFiles/empty.dir/__/deps/glad.c.o
+[105/107] Linking C executable tests/empty
+[106/107] Building C object tests/CMakeFiles/tearing.dir/__/deps/glad.c.o
+[107/107] Linking C executable tests/tearing
+[0/1] Install the project...
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /app/include/GLFW
+-- Installing: /app/include/GLFW/glfw3native.h
+-- Installing: /app/include/GLFW/glfw3.h
+-- Installing: /app/lib/cmake/glfw3/glfw3Config.cmake
+-- Installing: /app/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+-- Installing: /app/lib/cmake/glfw3/glfw3Targets.cmake
+-- Installing: /app/lib/cmake/glfw3/glfw3Targets-relwithdebinfo.cmake
+-- Installing: /app/lib/pkgconfig/glfw3.pc
+-- Installing: /app/lib/libglfw.so.3.2
+-- Installing: /app/lib/libglfw.so.3
+-- Installing: /app/lib/libglfw.so
+compressing debuginfo in: /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/rofiles/rofiles-kc7qb9/files/lib/libglfw.so.3.2
+processing: /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/rofiles/rofiles-kc7qb9/files/lib/libglfw.so.3.2
+[24] .debug_aranges compressed -> .zdebug_aranges (864 => 261 30.21%)
+[25] .debug_info compressed -> .zdebug_info (248292 => 99908 40.24%)
+[26] .debug_abbrev compressed -> .zdebug_abbrev (17571 => 2459 13.99%)
+[27] .debug_line compressed -> .zdebug_line (46834 => 17957 38.34%)
+[28] .debug_str compressed -> .zdebug_str (22070 => 8595 38.94%)
+[29] .debug_loc compressed -> .zdebug_loc (88805 => 16047 18.07%)
+[30] .debug_ranges compressed -> .zdebug_ranges (8624 => 1719 19.93%)
+[33] Updating section string table
+stripping /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/rofiles/rofiles-kc7qb9/files/lib/libglfw.so.3.2 to /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/rofiles/rofiles-kc7qb9/files/lib/debug/lib/libglfw.so.3.2.debug
+Committing stage build-glfw to cache
+========================================================================
+Building module goxel in /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/build/goxel-5
+========================================================================
+Archive:  /home/thomascoldrick/Documents/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/downloads/6106f7debea0b39aea1fd6711770d9ee315a798fdc59fe9ada2b92b44e147d0d/735080bc352f4f388b76d6af30cac696cb4800ed.zip
+735080bc352f4f388b76d6af30cac696cb4800ed
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/.gitattributes  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/.gitignore  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/.travis.yml  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/AUTHORS  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/COPYING  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/INTERNALS.md  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/Makefile  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/README.md  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/SConstruct  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/fonts/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/fonts/DejaVuSans-light.ttf  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/icons/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/icons/icon128.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/icons/icon16.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/icons/icon24.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/icons/icon256.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/icons/icon32.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/icons/icon48.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/icons/icon64.png  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/images/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/images/icons.png  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/other/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/other/povray_template.pov  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Blues.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Caramel.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Gold.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Gray.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Grays.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Greens.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Hilite.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Khaki.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/MagicaVoxel.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Pastels.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Plasma.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Reds.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Royal.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Tango-Palette.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/Ubuntu.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/db16.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/db32.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/echo-palette.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/inkscape.gpl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/palettes/webhex.gpl  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/cherry.goxcf  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/city.goxcf  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/intro.goxcf  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/planet.goxcf  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/test.goxcf  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/test2.goxcf  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/test3.goxcf  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/tree-big.goxcf  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/progs/tree-small.goxcf  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/shaders/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/shaders/background.glsl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/shaders/mesh.glsl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/shaders/model3d.glsl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/shaders/pos_data.glsl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/shaders/shadow_map.glsl  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/sounds/
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/sounds/click.wav  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/themes/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/themes/dark.ini  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/data/themes/original.ini  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/CMakeLists.txt  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh2.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh2.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh4.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh4.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_binning.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_binning.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_build.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_build.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_node.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_node.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_params.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_sort.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_sort.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_split.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_split.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_unaligned.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/bvh/bvh_unaligned.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/CMakeLists.txt  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_cpu.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_cuda.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_denoising.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_denoising.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_intern.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_memory.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_memory.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_multi.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_network.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_network.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_opencl.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_split_kernel.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_split_kernel.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_task.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/device/device_task.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/CMakeLists.txt  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/node.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/node.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/node_enum.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/node_type.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/node_type.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/node_xml.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/graph/node_xml.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/CMakeLists.txt  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/bvh.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/bvh_local.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/bvh_nodes.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/bvh_shadow_all.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/bvh_traversal.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/bvh_types.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/bvh_volume.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/bvh_volume_all.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/qbvh_local.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/qbvh_nodes.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/qbvh_shadow_all.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/qbvh_traversal.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/qbvh_volume.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/bvh/qbvh_volume_all.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/alloc.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_ashikhmin_shirley.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_ashikhmin_velvet.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_diffuse.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_diffuse_ramp.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_hair.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_microfacet.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_microfacet_multi.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_microfacet_multi_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_oren_nayar.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_phong_ramp.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_principled_diffuse.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_principled_sheen.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_reflection.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_refraction.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_toon.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_transparent.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bsdf_util.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/bssrdf.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/emissive.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/closure/volume.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_defines.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_features.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_features_sse.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_kernel.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_nlm_cpu.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_nlm_gpu.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_prefilter.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_reconstruction.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_transform.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_transform_gpu.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/filter/filter_transform_sse.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_attribute.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_curve.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_curve_intersect.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_motion_curve.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_motion_triangle.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_motion_triangle_intersect.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_motion_triangle_shader.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_object.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_patch.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_primitive.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_subd_triangle.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_triangle.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_triangle_intersect.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/geom/geom_volume.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_accumulate.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_bake.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_camera.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_compat_cpu.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_compat_cuda.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_compat_opencl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_differential.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_emission.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_film.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_globals.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_jitter.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_light.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_math.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_montecarlo.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_passes.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_path.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_path_branched.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_path_common.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_path_state.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_path_subsurface.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_path_surface.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_path_volume.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_projection.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_queues.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_random.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_shader.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_shadow.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_subsurface.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_textures.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_types.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_volume.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernel_work_stealing.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/filter.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/filter_avx.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/filter_avx2.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/filter_cpu.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/filter_cpu_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/filter_sse2.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/filter_sse3.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/filter_sse41.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_avx.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_avx2.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_cpu.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_cpu_image.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_cpu_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_split.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_split_avx.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_split_avx2.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_split_sse2.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_split_sse3.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_split_sse41.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_sse2.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_sse3.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/kernels/cpu/kernel_sse41.cpp  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/CMakeLists.txt  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/background.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/bsdf_diffuse_ramp.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/bsdf_phong_ramp.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/emissive.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/osl_bssrdf.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/osl_closures.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/osl_closures.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/osl_globals.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/osl_services.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/osl_services.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/osl_shader.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/osl/osl_shader.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/CMakeLists.txt  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_absorption_volume.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_add_closure.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_ambient_occlusion.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_anisotropic_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_attribute.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_background.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_bevel.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_blackbody.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_brick_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_brightness.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_bump.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_camera.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_checker_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_color.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_combine_hsv.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_combine_rgb.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_combine_xyz.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_convert_from_color.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_convert_from_float.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_convert_from_int.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_convert_from_normal.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_convert_from_point.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_convert_from_string.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_convert_from_vector.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_diffuse_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_displacement.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_emission.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_environment_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_fresnel.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_fresnel.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_gamma.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_geometry.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_glass_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_glossy_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_gradient_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_hair_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_hair_info.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_holdout.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_hsv.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_image_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_invert.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_layer_weight.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_light_falloff.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_light_path.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_magic_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_mapping.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_math.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_mix.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_mix_closure.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_musgrave_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_noise_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_normal.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_normal_map.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_object_info.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_output_displacement.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_output_surface.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_output_volume.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_particle_info.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_principled_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_principled_volume.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_ramp_util.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_refraction_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_rgb_curves.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_rgb_ramp.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_rgb_to_bw.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_scatter_volume.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_separate_hsv.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_separate_rgb.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_separate_xyz.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_set_normal.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_sky_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_subsurface_scattering.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_tangent.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_texture.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_texture_coordinate.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_toon_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_translucent_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_transparent_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_uv_map.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_value.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_vector_curves.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_vector_displacement.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_vector_math.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_vector_transform.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_velvet_bsdf.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_voronoi_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_voxel_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_wave_texture.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_wavelength.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/node_wireframe.osl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/oslutil.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/shaders/stdosl.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_branched.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_buffer_update.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_data_init.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_direct_lighting.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_do_volume.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_enqueue_inactive.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_holdout_emission_blurring_pathtermination_ao.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_indirect_background.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_indirect_subsurface.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_lamp_emission.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_next_iteration_setup.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_path_init.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_queue_enqueue.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_scene_intersect.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_shader_eval.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_shader_setup.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_shader_sort.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_shadow_blocked_ao.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_shadow_blocked_dl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_split_common.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_split_data.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_split_data_types.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/split/kernel_subsurface_scatter.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_attribute.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_bevel.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_blackbody.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_brick.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_brightness.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_bump.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_camera.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_checker.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_closure.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_color_util.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_convert.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_displace.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_fresnel.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_gamma.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_geometry.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_gradient.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_hsv.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_image.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_invert.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_light_path.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_magic.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_mapping.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_math.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_math_util.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_mix.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_musgrave.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_noise.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_noisetex.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_normal.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_ramp.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_ramp_util.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_sepcomb_hsv.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_sepcomb_vector.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_sky.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_tex_coord.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_texture.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_types.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_value.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_vector_transform.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_voronoi.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_voxel.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_wave.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_wavelength.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/kernel/svm/svm_wireframe.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/CMakeLists.txt  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/attribute.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/attribute.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/background.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/background.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/bake.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/bake.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/buffers.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/buffers.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/camera.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/camera.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/constant_fold.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/constant_fold.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/curves.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/curves.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/film.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/film.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/graph.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/graph.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/image.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/image.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/integrator.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/integrator.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/light.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/light.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/mesh.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/mesh.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/mesh_displace.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/mesh_subdivision.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/nodes.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/nodes.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/object.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/object.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/osl.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/osl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/particles.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/particles.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/scene.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/scene.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/session.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/session.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/shader.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/shader.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/sobol.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/sobol.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/svm.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/svm.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/tables.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/tables.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/tile.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/render/tile.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/CMakeLists.txt  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/subd_dice.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/subd_dice.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/subd_patch.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/subd_patch.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/subd_patch_table.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/subd_patch_table.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/subd_split.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/subd/subd_split.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/CMakeLists.txt  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_algorithm.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_aligned_malloc.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_aligned_malloc.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_args.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_atomic.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_avxf.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_boundbox.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_color.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_debug.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_debug.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_defines.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_foreach.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_function.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_guarded_allocator.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_guarded_allocator.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_half.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_hash.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_image.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_image_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_list.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_logging.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_logging.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_map.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_cdf.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_cdf.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_fast.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_float2.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_float3.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_float4.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_int2.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_int3.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_int4.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_intersect.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_math_matrix.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_md5.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_md5.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_opengl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_optimization.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_param.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_param.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_path.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_path.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_progress.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_queue.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_rect.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_set.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_simd.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_simd.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_sky_model.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_sky_model.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_sky_model_data.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_sseb.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_ssef.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_ssei.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_stack_allocator.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_static_assert.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_stats.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_string.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_string.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_system.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_system.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_task.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_task.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_texture.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_thread.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_thread.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_time.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_time.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_transform.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_transform.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_float2.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_float2_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_float3.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_float3_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_float4.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_float4_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_int2.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_int2_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_int3.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_int3_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_int4.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_int4_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uchar2.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uchar2_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uchar3.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uchar3_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uchar4.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uchar4_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uint2.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uint2_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uint3.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uint3_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uint4.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_uint4_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_vector3.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_types_vector3_impl.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_ustring.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_vector.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_version.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_view.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_view.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_windows.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_windows.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/src/util/util_xml.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/third_party/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/third_party/atomic/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/third_party/atomic/atomic_ops.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/third_party/atomic/intern/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/third_party/atomic/intern/atomic_ops_ext.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/third_party/atomic/intern/atomic_ops_msvc.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/third_party/atomic/intern/atomic_ops_unix.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/cycles/third_party/atomic/intern/atomic_ops_utils.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/glew/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/glew/GL/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/glew/GL/glew.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/glew/GL/wglew.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/glew/glew.c  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/imgui/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/imgui/imconfig.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/imgui/imgui.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/imgui/imgui.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/imgui/imgui_draw.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/imgui/imgui_internal.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/inih/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/inih/ini.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/inih/ini.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/noc/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/noc/noc_file_dialog.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/stb/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/stb/stb_image.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/stb/stb_image_write.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/stb/stb_rect_pack.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/stb/stb_textedit.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/stb/stb_truetype.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/uthash/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/uthash/utarray.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/uthash/uthash.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/ext_src/uthash/utlist.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/icon.png  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel.xcodeproj/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel.xcodeproj/project.pbxproj  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel.xcodeproj/project.xcworkspace/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel.xcodeproj/project.xcworkspace/contents.xcworkspacedata  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/AppDelegate.swift  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/1024.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/128.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/16.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/256-1.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/256.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/32-1.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/32.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/512-1.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/512.png  
+ extracting: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/64.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Assets.xcassets/AppIcon.appiconset/Contents.json  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Base.lproj/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Base.lproj/MainMenu.xib  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/Info.plist  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/goxel-Bridging-Header.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/osx/goxel/goxel/goxel.pch  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/screenshots/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/screenshots/screenshot-castle.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/screenshots/screenshot-dicom.png  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/screenshots/screenshot-procedural-city.png  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/snap/
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/snap/gui/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/snap/gui/goxel.desktop  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/snap/gui/io.github.guillaumechereau.Goxel.appdata.xml  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/snap/snapcraft.yaml  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/action.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets.c  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/fonts.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/icons.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/images.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/other.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/palettes.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/progs.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/shaders.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/sounds.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/assets/themes.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/block_def.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/box.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/cache.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/camera.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/color.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/cycles.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/dialogs_osx.m  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/dicom.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/gox.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/png.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/png_slices.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/povray.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/qubicle.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/txt.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/vox.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/voxlap.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/vxl.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/formats/wavefront.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/gesture.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/gesture3d.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/glew-mx.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/goxel.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/goxel.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/gui.cpp  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/gui_settings.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/image.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/imgui_user.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/main.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/marchingcube.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/mesh.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/mesh.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/mesh_to_vertices.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/mesh_utils.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/model3d.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/mustache.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/palette.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/plane.h  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/procedural.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/procedural.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/procedural.leg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/quantization.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/render.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/shape.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/sound.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/sound_openal.inl  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/stack.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/system.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/system_osx.m  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tests.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/texture.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/theme.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools.c  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/brush.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/color_picker.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/extrude.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/laser.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/move.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/plane.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/procedural.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/selection.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/tools/shape.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/utils.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/utils_gl.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/vec.c  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/src/vec.h  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/add.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/arrow_downward.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/arrow_upward.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/edit.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/link.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/mode_add.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/mode_paint.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/mode_sub.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/remove.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/shape_cube.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/shape_cylinder.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/shape_sphere.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_brush.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_extrude.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_laser.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_move.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_pick_color.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_plane.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_procedural.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_selection.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/tool_shape.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/visibility.svg  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/svg/visibility_off.svg  
+   creating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/tools/
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/tools/create_assets.py  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/tools/create_font.py  
+  inflating: goxel-735080bc352f4f388b76d6af30cac696cb4800ed/tools/create_icons.py  
+scons debug=0
+scons: Reading SConscript files ...
+Checking whether __GLIBC__ is declared... yes
+Checking for C library libpng... yes
+scons: done reading SConscript files.
+scons: Building targets ...
+g++ -o ext_src/cycles/src/bvh/bvh.o -c -std=gnu++11 -Wall -Wno-narrowing -Wno-unknown-pragmas -Wno-unused-function -DIMGUI_INCLUDE_IMGUI_USER_INL -O2 -g -fstack-protector-strong -Werror -Ofast -DNDEBUG -DHAVE_LIBPNG=1 -pthread -DCYCLES_STD_UNORDERED_MAP "-DCCL_NAMESPACE_BEGIN=namespace ccl {" -DCCL_NAMESPACE_END=} -DWITH_CUDA_DYNLOAD -DWITHOUT_OPENIMAGEIO -DWITH_GLEW_MX -Wno-sign-compare -Wno-strict-aliasing -Wno-uninitialized -Isrc -Iext_src/uthash -Iext_src/stb -Iext_src/noc -Iext_src/imgui -Iext_src/inih -Iext_src/cycles/src -Iext_src/cycles/third_party/atomic -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/libdrm -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include ext_src/cycles/src/bvh/bvh.cpp
+In file included from ext_src/cycles/src/util/util_types.h:146,
+                 from ext_src/cycles/src/util/util_math.h:36,
+                 from ext_src/cycles/src/util/util_boundbox.h:23,
+                 from ext_src/cycles/src/bvh/bvh_params.h:21,
+                 from ext_src/cycles/src/bvh/bvh.h:21,
+                 from ext_src/cycles/src/bvh/bvh.cpp:18:
+ext_src/cycles/src/util/util_sseb.h: In function ‘const ccl::sseb ccl::shuffle(const ccl::sseb&)’:
+ext_src/cycles/src/util/util_sseb.h:122:26: error: could not convert ‘_mm_shuffle_epi32(a, ((((i3 << 6) | (i2 << 4)) | (i1 << 2)) | i0))’ from ‘__m128i’ {aka ‘__vector(2) long long int’} to ‘const ccl::sseb’
+  return _mm_shuffle_epi32(a, _MM_SHUFFLE(i3, i2, i1, i0));
+         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ext_src/cycles/src/bvh/bvh.h:21,
+                 from ext_src/cycles/src/bvh/bvh.cpp:18:
+ext_src/cycles/src/bvh/bvh_params.h: In member function ‘ccl::BVHReference& ccl::BVHReference::operator=(const ccl::BVHReference&)’:
+ext_src/cycles/src/bvh/bvh_params.h:185:43: error: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘class ccl::BVHReference’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Werror=class-memaccess]
+    memcpy(this, &arg, sizeof(BVHReference));
+                                           ^
+ext_src/cycles/src/bvh/bvh_params.h:155:7: note: ‘class ccl::BVHReference’ declared here
+ class BVHReference
+       ^~~~~~~~~~~~
+cc1plus: all warnings being treated as errors
+scons: *** [ext_src/cycles/src/bvh/bvh.o] Error 1
+scons: building terminated because of errors.
+make: *** [Makefile:8: release] Error 2
+Error: module goxel: Child process exited with code 2

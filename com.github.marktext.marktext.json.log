@@ -1,0 +1,196 @@
+Emptying app dir 'build'
+Downloading sources
+Fetching git repo https://github.com/marktext/marktext.git, ref refs/tags/v0.12.25
+Initializing build dir
+Committing stage init to cache
+Starting build of com.github.marktext.marktext
+========================================================================
+Building module marktext in /home/thomascoldrick/Documents/flatpaks/com.github.marktext.marktext/.flatpak-builder/build/marktext-1
+========================================================================
+Note: checking out '746969e7053b4c633786bdd433dcef1d523fdf26'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 746969e... release: 0.12.25
+Running: chmod +x build-marktext.sh
+Running: chmod +x marktext_x86_64.AppImage
+Running: ./build-marktext.sh
+squashfs-root/AppRun
+squashfs-root/app
+squashfs-root/app/LICENSE.electron.txt
+squashfs-root/app/LICENSES.chromium.html
+squashfs-root/app/blink_image_resources_200_percent.pak
+squashfs-root/app/content_resources_200_percent.pak
+squashfs-root/app/content_shell.pak
+squashfs-root/app/icudtl.dat
+squashfs-root/app/libffmpeg.so
+squashfs-root/app/libnode.so
+squashfs-root/app/locales
+squashfs-root/app/locales/am.pak
+squashfs-root/app/locales/ar.pak
+squashfs-root/app/locales/bg.pak
+squashfs-root/app/locales/bn.pak
+squashfs-root/app/locales/ca.pak
+squashfs-root/app/locales/cs.pak
+squashfs-root/app/locales/da.pak
+squashfs-root/app/locales/de.pak
+squashfs-root/app/locales/el.pak
+squashfs-root/app/locales/en-GB.pak
+squashfs-root/app/locales/en-US.pak
+squashfs-root/app/locales/es-419.pak
+squashfs-root/app/locales/es.pak
+squashfs-root/app/locales/et.pak
+squashfs-root/app/locales/fa.pak
+squashfs-root/app/locales/fake-bidi.pak
+squashfs-root/app/locales/fi.pak
+squashfs-root/app/locales/fil.pak
+squashfs-root/app/locales/fr.pak
+squashfs-root/app/locales/gu.pak
+squashfs-root/app/locales/he.pak
+squashfs-root/app/locales/hi.pak
+squashfs-root/app/locales/hr.pak
+squashfs-root/app/locales/hu.pak
+squashfs-root/app/locales/id.pak
+squashfs-root/app/locales/it.pak
+squashfs-root/app/locales/ja.pak
+squashfs-root/app/locales/kn.pak
+squashfs-root/app/locales/ko.pak
+squashfs-root/app/locales/lt.pak
+squashfs-root/app/locales/lv.pak
+squashfs-root/app/locales/ml.pak
+squashfs-root/app/locales/mr.pak
+squashfs-root/app/locales/ms.pak
+squashfs-root/app/locales/nb.pak
+squashfs-root/app/locales/nl.pak
+squashfs-root/app/locales/pl.pak
+squashfs-root/app/locales/pt-BR.pak
+squashfs-root/app/locales/pt-PT.pak
+squashfs-root/app/locales/ro.pak
+squashfs-root/app/locales/ru.pak
+squashfs-root/app/locales/sk.pak
+squashfs-root/app/locales/sl.pak
+squashfs-root/app/locales/sr.pak
+squashfs-root/app/locales/sv.pak
+squashfs-root/app/locales/sw.pak
+squashfs-root/app/locales/ta.pak
+squashfs-root/app/locales/te.pak
+squashfs-root/app/locales/th.pak
+squashfs-root/app/locales/tr.pak
+squashfs-root/app/locales/uk.pak
+squashfs-root/app/locales/vi.pak
+squashfs-root/app/locales/zh-CN.pak
+squashfs-root/app/locales/zh-TW.pak
+squashfs-root/app/marktext
+squashfs-root/app/natives_blob.bin
+squashfs-root/app/pdf_viewer_resources.pak
+squashfs-root/app/resources
+squashfs-root/app/resources/app-update.yml
+squashfs-root/app/resources/app.asar
+squashfs-root/app/resources/electron.asar
+squashfs-root/app/snapshot_blob.bin
+squashfs-root/app/ui_resources_200_percent.pak
+squashfs-root/app/views_resources_200_percent.pak
+squashfs-root/marktext.desktop
+squashfs-root/marktext.png
+squashfs-root/usr
+squashfs-root/usr/lib
+squashfs-root/usr/lib/libXss.so.1
+squashfs-root/usr/lib/libXtst.so.6
+squashfs-root/usr/lib/libappindicator.so.1
+squashfs-root/usr/lib/libgconf-2.so.4
+squashfs-root/usr/lib/libindicator.so.7
+squashfs-root/usr/lib/libnotify.so.4
+squashfs-root/usr/share
+squashfs-root/usr/share/icons
+squashfs-root/usr/share/icons/hicolor
+squashfs-root/usr/share/icons/hicolor/1025x1025
+squashfs-root/usr/share/icons/hicolor/1025x1025/apps
+squashfs-root/usr/share/icons/hicolor/1025x1025/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/128x128
+squashfs-root/usr/share/icons/hicolor/128x128/apps
+squashfs-root/usr/share/icons/hicolor/128x128/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/16x16
+squashfs-root/usr/share/icons/hicolor/16x16/apps
+squashfs-root/usr/share/icons/hicolor/16x16/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/24x24
+squashfs-root/usr/share/icons/hicolor/24x24/apps
+squashfs-root/usr/share/icons/hicolor/24x24/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/256x256
+squashfs-root/usr/share/icons/hicolor/256x256/apps
+squashfs-root/usr/share/icons/hicolor/256x256/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/32x32
+squashfs-root/usr/share/icons/hicolor/32x32/apps
+squashfs-root/usr/share/icons/hicolor/32x32/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/48x48
+squashfs-root/usr/share/icons/hicolor/48x48/apps
+squashfs-root/usr/share/icons/hicolor/48x48/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/512x512
+squashfs-root/usr/share/icons/hicolor/512x512/apps
+squashfs-root/usr/share/icons/hicolor/512x512/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/64x64
+squashfs-root/usr/share/icons/hicolor/64x64/apps
+squashfs-root/usr/share/icons/hicolor/64x64/apps/marktext.png
+squashfs-root/usr/share/icons/hicolor/96x96
+squashfs-root/usr/share/icons/hicolor/96x96/apps
+squashfs-root/usr/share/icons/hicolor/96x96/apps/marktext.png
+Committing stage build-marktext to cache
+Cleaning up
+Renaming marktext.appdata.xml to share/appdata/com.github.marktext.marktext.appdata.xml
+Renaming marktext.desktop to com.github.marktext.marktext.desktop
+Renaming icon hicolor/64x64/apps/marktext.png to hicolor/64x64/apps/com.github.marktext.marktext.png
+Renaming icon hicolor/16x16/apps/marktext.png to hicolor/16x16/apps/com.github.marktext.marktext.png
+Renaming icon hicolor/256x256/apps/marktext.png to hicolor/256x256/apps/com.github.marktext.marktext.png
+Renaming icon hicolor/512x512/apps/marktext.png to hicolor/512x512/apps/com.github.marktext.marktext.png
+Renaming icon hicolor/32x32/apps/marktext.png to hicolor/32x32/apps/com.github.marktext.marktext.png
+Renaming icon hicolor/24x24/apps/marktext.png to hicolor/24x24/apps/com.github.marktext.marktext.png
+Renaming icon hicolor/48x48/apps/marktext.png to hicolor/48x48/apps/com.github.marktext.marktext.png
+Renaming icon hicolor/128x128/apps/marktext.png to hicolor/128x128/apps/com.github.marktext.marktext.png
+Rewriting contents of com.github.marktext.marktext.desktop
+Running appstream-compose
+Processing application com.github.marktext.marktext
+Saving icon /app/share/app-info/icons/flatpak/64x64/com.github.marktext.marktext.png
+Saving icon /app/share/app-info/icons/flatpak/128x128/com.github.marktext.marktext.png
+Saving AppStream /app/share/app-info/xmls/com.github.marktext.marktext.xml.gz
+Done!
+Committing stage cleanup to cache
+Finishing app
+Exporting share/applications/com.github.marktext.marktext.desktop
+Exporting share/icons/hicolor/64x64/apps/com.github.marktext.marktext.png
+Exporting share/icons/hicolor/16x16/apps/com.github.marktext.marktext.png
+Exporting share/icons/hicolor/256x256/apps/com.github.marktext.marktext.png
+Exporting share/icons/hicolor/512x512/apps/com.github.marktext.marktext.png
+Exporting share/icons/hicolor/32x32/apps/com.github.marktext.marktext.png
+Exporting share/icons/hicolor/24x24/apps/com.github.marktext.marktext.png
+Exporting share/icons/hicolor/48x48/apps/com.github.marktext.marktext.png
+Exporting share/icons/hicolor/128x128/apps/com.github.marktext.marktext.png
+Please review the exported files and the metadata
+Committing stage finish to cache
+Exporting com.github.marktext.marktext to repo
+Commit: 4e735623c9c4c7e9020dbbfd3281c0d86856b3417d3e2d2946ea6972383a95d3
+Metadata Total: 259
+Metadata Written: 3
+Content Total: 213
+Content Written: 1
+Content Bytes Written: 2076 (2.1 kB)
+Exporting com.github.marktext.marktext.Locale to repo
+Commit: fc525897b27509458648a019b941eae81dcb8413c8bfd0f7f8559228912d51b6
+Metadata Total: 541
+Metadata Written: 1
+Content Total: 71
+Content Written: 0
+Content Bytes Written: 0 (0 bytes)
+Exporting com.github.marktext.marktext.Debug to repo
+Commit: 293903d71abd7c8422847e14b7908c758be3596f0ed0e8d991dd9d7a315699dd
+Metadata Total: 5
+Metadata Written: 1
+Content Total: 1
+Content Written: 0
+Content Bytes Written: 0 (0 bytes)
+Pruning cache

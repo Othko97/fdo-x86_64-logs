@@ -1,0 +1,38 @@
+Emptying app dir 'build'
+Downloading sources
+Initializing build dir
+Committing stage init to cache
+Starting build of com.slack.Slack
+========================================================================
+Building module slack in /home/thomascoldrick/Documents/flatpaks/com.slack.Slack/.flatpak-builder/build/slack-1
+========================================================================
+Running: install apply_extra /app/bin
+Running: install slack.sh /app/bin/slack
+Running: install -Dm644 com.slack.Slack.appdata.xml /app/share/appdata/com.slack.Slack.appdata.xml
+Running: cp /usr/bin/ar /app/bin
+Running: ARCH_TRIPLE=$(gcc --print-multiarch) && cp /usr/lib/${ARCH_TRIPLE}/libbfd-*.so /app/lib
+Committing stage build-slack to cache
+Cleaning up
+Running appstream-compose
+Processing application com.slack.Slack
+Saving AppStream /app/share/app-info/xmls/com.slack.Slack.xml.gz
+Done!
+Committing stage cleanup to cache
+Finishing app
+Please review the exported files and the metadata
+Committing stage finish to cache
+Exporting com.slack.Slack to repo
+Commit: 47624ecd0f3720712f127d2cefd52ec78014f50c1b51b47c2d46ce9cca3c968f
+Metadata Total: 315
+Metadata Written: 5
+Content Total: 126
+Content Written: 3
+Content Bytes Written: 1391065 (1.4 MB)
+Exporting com.slack.Slack.Debug to repo
+Commit: a3de4fe36306a83339eac93cd818c6d0cb1d15e7783ac3c73572f685f48e380a
+Metadata Total: 5
+Metadata Written: 1
+Content Total: 1
+Content Written: 0
+Content Bytes Written: 0 (0 bytes)
+Pruning cache
